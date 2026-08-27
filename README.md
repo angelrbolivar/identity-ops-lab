@@ -1,80 +1,53 @@
 # Norte Club — Entra identity lab
 
-Norte Club is a fictional company. I built its first Entra tenant to practice identity operations end to end: create the accounts, write the policies, then prove the policies actually fire.
+Norte Club is a fictional gym and payments company. I built its Entra tenant from scratch so I could do identity work end to end instead of reading about it. Angel Rodriguez Bolivar.
 
-This is a lab. It is not production Entra.
+Microsoft Entra ID P2 trial. Started 27 Aug 2026. The trial ends around 23 Sep 2026 and the tenant goes with it, so the screenshots are the evidence.
 
-Author: Angel Rodriguez Bolivar
+## What I do in production
 
----
+At ABC Fitness I verify the requester's identity first, then change their access in Ignite. Password resets are gated to L3, so I route those instead of doing them.
 
-## The tenant
+At Remitly I triaged ATO and fraud alerts in a live queue under SLA: release, hold, or block, on incomplete information.
 
-Microsoft Entra ID P2 trial. Started 27 Aug 2026. It expires around 23 Sep 2026.
+CompTIA Security+. My detection work lives in [angelrbolivar-soc-portfolio](https://github.com/angelrbolivar/angelrbolivar-soc-portfolio) (Sentinel honeypot).
 
-When the trial dies, the tenant goes with it. The screenshots in [`screenshots/`](screenshots) are the evidence. That is why I write each step down as I do it instead of at the end.
+I do not administer Entra, Okta, AD, or M365 at work. That is the gap this lab is closing.
 
----
+## Users and groups
 
-## What is built
+![Norte Club users](screenshots/01-users.png)
 
-Two write-ups.
+Five users, plus the `admin` account I run the tenant from.
 
-- [01-identities.md](01-identities.md) — the directory. Five users, three groups, plus the admin account I run the tenant from.
-- [02-conditional-access.md](02-conditional-access.md) — three Conditional Access policies and the What If evidence for each.
-
-### Accounts
-
-- `admin` — my day-to-day Global Administrator.
-- `breakglass` — standing Global Administrator. Never used. Excluded from CA-01.
-- `helpdesk.t1` — support account. Not a Global Administrator.
-- `pim.admin` — created for privileged role work. Nothing is configured on it yet.
-- `user.standard` — baseline staff account.
-- `leaver.marco` — baseline staff account.
+`admin` is the Global Admin I work in every day. `breakglass` is a standing Global Admin I do not use, excluded from Conditional Access, because the account I work in is not an emergency account. `helpdesk.t1`, `pim.admin`, `user.standard`, and `leaver.marco` hold no directory role at all.
 
 Groups: `GRP-Ops`, `GRP-Finance`, `GRP-IT`.
 
-### Conditional Access
+Full write-up: [01-identities.md](01-identities.md)
+
+## Conditional Access
+
+![CA-01 On](screenshots/05-ca-mfa-all.png)
+
+Three policies, all On.
 
 - **CA-01** — require MFA for all users. `breakglass` excluded.
 - **CA-02** — block legacy authentication.
-- **CA-03** — require MFA for admin roles.
+- **CA-03** — require MFA for privileged roles.
 
-Security defaults are off. I turned them off after CA-01 was in place, not before. Doing it in the other order leaves a window with no MFA on anything.
+I tested each one with What If:
 
-### What If results
+| Account | Client | Result |
+|---|---|---|
+| `user.standard` | Browser | CA-01 applies. MFA required. |
+| `user.standard` | Other clients | CA-02 applies. Blocked. |
+| `breakglass` | Browser | No policy applies. |
 
-| Sign-in evaluated | Result |
-| --- | --- |
-| `user.standard`, browser | CA-01 applies. MFA required. |
-| `user.standard`, Other clients | CA-02 applies. Sign-in blocked. |
-| `breakglass`, browser | 0 policies apply. |
+The last row is the one I re-check. If `breakglass` ever starts matching CA-01, the emergency account has stopped being an emergency account.
 
-The third row is the one I re-check. A break-glass account that starts matching CA-01 is an account I cannot use on the day I need it.
+Full write-up: [02-conditional-access.md](02-conditional-access.md)
 
----
+## Not in this repo yet
 
-## Not built
-
-PIM, access reviews, and joiner-mover-leaver do not exist in this tenant. There is nothing to read on them.
-
----
-
-## Transparency
-
-What If evaluates a described sign-in against policy. It is not a real sign-in. It shows that a policy would apply. It does not show a user completing MFA.
-
-Six accounts. No real users, no real traffic, no real data. The tenant is a few weeks old and rented.
-
----
-
-## Production work I claim
-
-- Two years of real-time alert triage in fintech fraud and risk operations (Remitly via Sutherland): ATO and fraud queues, high volume, incomplete information, true/false-positive decisions under SLA.
-- ABC Fitness: access verification and Ignite RBAC.
-- CompTIA Security+.
-- Sentinel honeypot lab, in [angelrbolivar-soc-portfolio](https://github.com/angelrbolivar/angelrbolivar-soc-portfolio).
-
-## What I do not claim
-
-I have not administered Entra, Active Directory, Okta, PowerShell, or M365 in production. I do not hold SC-300. This lab does not change any of that.
+PIM, access reviews, joiner-mover-leaver, and Okta. Not built.
