@@ -1,75 +1,80 @@
-# Identity Ops Lab — Costa Norte Pay
+# Norte Club — Entra identity lab
 
-Fictional gym + payments company. First Entra tenant for staff access.
+Norte Club is a fictional company. I built its first Entra tenant to practice identity operations end to end: create the accounts, write the policies, then prove the policies actually fire.
 
-**This is a lab. Not production Entra.** Production identity work I *do* claim: Remitly ATO/fraud triage and ABC Fitness access verification + Ignite RBAC.
+This is a lab. It is not production Entra.
 
-Author: Angel Rodriguez Bolivar  
-Tenant: Microsoft Entra ID P2 trial  
-Started: 27 Aug 2026  
-Trial death clock: ~23 Sep 2026 — screenshots are the evidence
+Author: Angel Rodriguez Bolivar
 
 ---
 
-## What a hiring manager should look at (5 minutes)
+## The tenant
 
-| Order | Artifact | Why it exists |
-|---|---|---|
-| 1 | [01-identities.md](01-identities.md) | Users, groups, Decision #1 (helpdesk is not standing Global Admin) |
-| 2 | [02-conditional-access.md](02-conditional-access.md) | Lab A — MFA-all, break-glass exclusion, block legacy auth, one allow + one block |
-| 3 | [03-pim-access-reviews.md](03-pim-access-reviews.md) | Lab B — eligible vs standing privilege |
-| 4 | [04-jml-ato.md](04-jml-ato.md) | Lab C — joiner / mover / leaver+ATO mapped to Remitly language |
-| 5 | [05-decisions.md](05-decisions.md) | Why each control exists. Alternatives rejected. |
-| 6 | [06-limitations.md](06-limitations.md) | What this tenant cannot prove. Do not invent incidents. |
+Microsoft Entra ID P2 trial. Started 27 Aug 2026. It expires around 23 Sep 2026.
 
-Screenshots live in [`screenshots/`](screenshots/). Cap: 20 named files.
+When the trial dies, the tenant goes with it. The screenshots in [`screenshots/`](screenshots) are the evidence. That is why I write each step down as I do it instead of at the end.
 
 ---
 
-## Lab A (hireable this week)
+## What is built
 
-Done when all of these exist in the write-up **and** in `screenshots/`:
+Two write-ups.
 
-- CA: require MFA for all users, exclude `breakglass`
-- CA: block legacy authentication
-- One admin-targeted CA **or** one named-location test
-- Sign-in log evidence: one allow + one block (or What If if interactive sign-in is ugly)
-- Decision written: why break-glass is excluded and what compensates
+- [01-identities.md](01-identities.md) — the directory. Five users, three groups, plus the admin account I run the tenant from.
+- [02-conditional-access.md](02-conditional-access.md) — three Conditional Access policies and the What If evidence for each.
 
-**Until Lab A is published, do not put Entra in a LinkedIn headline.**
+### Accounts
 
----
+- `admin` — my day-to-day Global Administrator.
+- `breakglass` — standing Global Administrator. Never used. Excluded from CA-01.
+- `helpdesk.t1` — support account. Not a Global Administrator.
+- `pim.admin` — created for privileged role work. Nothing is configured on it yet.
+- `user.standard` — baseline staff account.
+- `leaver.marco` — baseline staff account.
 
-## Directory (Lab A day 1)
+Groups: `GRP-Ops`, `GRP-Finance`, `GRP-IT`.
 
-| Account | Purpose |
-|---|---|
-| `breakglass` | Emergency GA. Excluded from MFA-all CA. Almost never used. |
-| `helpdesk.t1` | Least-privilege support. PIM-eligible later. Never standing GA. |
-| `pim.admin` | Eligible admin account for PIM demos. |
-| `user.standard` | Baseline staff. Target of MFA-all. |
-| `leaver.marco` | Disable + revoke + strip groups (ATO / leaver). |
+### Conditional Access
 
-Groups: `GRP-Ops` · `GRP-Finance` · `GRP-IT`
+- **CA-01** — require MFA for all users. `breakglass` excluded.
+- **CA-02** — block legacy authentication.
+- **CA-03** — require MFA for admin roles.
 
-Five users is enough. Pretty roster is not the product. Conditional Access is.
+Security defaults are off. I turned them off after CA-01 was in place, not before. Doing it in the other order leaves a window with no MFA on anything.
 
----
+### What If results
 
-## Honest claims
+| Sign-in evaluated | Result |
+| --- | --- |
+| `user.standard`, browser | CA-01 applies. MFA required. |
+| `user.standard`, Other clients | CA-02 applies. Sign-in blocked. |
+| `breakglass`, browser | 0 policies apply. |
 
-**May claim as production:** Remitly ATO/fraud triage. ABC access verification + Ignite RBAC. Security+. Sentinel honeypot lab.
-
-**May claim as lab after this repo exists:** Entra P2 tenant — CA, PIM, access reviews, JML.
-
-**Never claim as production:** Entra, Active Directory, Okta, PowerShell, M365 admin, SC-300 (until passed).
-
-Related SOC evidence stays here: [angelrbolivar-soc-portfolio](https://github.com/angelrbolivar/angelrbolivar-soc-portfolio)
+The third row is the one I re-check. A break-glass account that starts matching CA-01 is an account I cannot use on the day I need it.
 
 ---
 
-## 60-second interview line
+## Not built
 
-I do access and identity-risk work in production (ABC access tickets + Remitly ATO). I do not administer Entra at work. I built a P2 lab: users/groups, MFA Conditional Access with a break-glass exclusion, PIM-eligible helpdesk, and a finance access review. I can walk joiner, mover, and ATO containment.
+PIM, access reviews, and joiner-mover-leaver do not exist in this tenant. There is nothing to read on them.
 
-If the trial is dead, walk the same order on screenshots. Evidence is the lab.
+---
+
+## Transparency
+
+What If evaluates a described sign-in against policy. It is not a real sign-in. It shows that a policy would apply. It does not show a user completing MFA.
+
+Six accounts. No real users, no real traffic, no real data. The tenant is a few weeks old and rented.
+
+---
+
+## Production work I claim
+
+- Two years of real-time alert triage in fintech fraud and risk operations (Remitly via Sutherland): ATO and fraud queues, high volume, incomplete information, true/false-positive decisions under SLA.
+- ABC Fitness: access verification and Ignite RBAC.
+- CompTIA Security+.
+- Sentinel honeypot lab, in [angelrbolivar-soc-portfolio](https://github.com/angelrbolivar/angelrbolivar-soc-portfolio).
+
+## What I do not claim
+
+I have not administered Entra, Active Directory, Okta, PowerShell, or M365 in production. I do not hold SC-300. This lab does not change any of that.
