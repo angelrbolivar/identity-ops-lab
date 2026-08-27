@@ -18,19 +18,19 @@ I wanted four things:
 ## What I built
 
 **CA-01-MFA-All-Users**  
-I built this from a blank policy on purpose. I needed to click Users, Exclude, Grant, and On myself. The templates try to exclude whatever account I am signed in as. That would have excluded `admin`. `admin` is the account I work in. The exception is `breakglass`.
+I built this from a blank policy on purpose. I needed to click Users, Exclude, Grant, and On myself. The templates try to exclude whatever account I am signed in as. That would have excluded `admin`, and `admin` is the account I work in. The exclusion I want is `breakglass`.
 
 All users. Exclude Break Glass. All cloud apps. Require MFA. On.
 
 I turned Security defaults off only after this policy existed. Microsoft will not let both run.
 
 **CA-02-Block-Legacy-Auth**  
-I used Microsoft’s “Block legacy authentication” template, then I edited it. The important part of that template is the client list: Exchange ActiveSync and Other clients. If I tick Browser by mistake I lock myself out. If I tick nothing, the policy does nothing.
+I used Microsoft's "Block legacy authentication" template, then I edited it. The important part of that template is the client list: Exchange ActiveSync and Other clients. If I tick Browser by mistake I lock myself out. If I tick nothing, the policy does nothing.
 
 Same exclude: Break Glass. Grant: Block. On.
 
 **CA-03-MFA-Admins**  
-Same pattern. Template for “MFA for admins,” then edit. It targets directory roles, not all users. Break Glass is a Global Admin, so I excluded that *account* or the emergency login would get MFA and the back door would be useless.
+Same pattern. Template for "MFA for admins," then edit. It targets directory roles, not all users. Break Glass is a Global Admin, so I excluded the account. Otherwise the emergency login gets an MFA prompt and the back door is useless.
 
 On. It overlaps CA-01. That is fine.
 
@@ -46,7 +46,7 @@ I did not use the device-compliance or MDM templates. I have no Intune devices i
 | Standard User | Other clients | CA-01 wants MFA. CA-02 blocks. Block wins. | `screenshots/08-whatif-block-legacy.png` |
 | Break Glass | Browser | No policy applies. | `screenshots/09-whatif-breakglass-user.png` and `screenshots/09-whatif-breakglass-excluded.png` |
 
-Test 3 is two pictures because “0 policies” does not show who you tested.
+Test 3 is two pictures because "0 policies" does not show who you tested.
 
 Policy screenshots: `05-ca-mfa-all.png`, `06-ca-exclude-breakglass.png`.
 
@@ -54,7 +54,7 @@ Policy screenshots: `05-ca-mfa-all.png`, `06-ca-exclude-breakglass.png`.
 
 `admin` is the daily account. If I exclude it, MFA is theater.
 
-`breakglass` is standing Global Admin that I do not use. If I include it in CA-01 and Authenticator dies, I have no way back in.
+`breakglass` is a standing Global Admin that I do not use. If I include it in CA-01 and Authenticator dies, I have no way back in.
 
 Legacy auth cannot do MFA, so I block it rather than challenge it.
 
