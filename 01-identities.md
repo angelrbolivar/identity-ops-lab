@@ -1,21 +1,35 @@
-Write 01-identities.md for the Norte Club Entra lab. First person. Lab notebook. Under 400 words.
+# 01 — Identities
 
-Facts:
-- 27 Aug 2026. Norte Club. Entra P2.
-- admin = daily Global Admin I use to build. breakglass = second Global Admin I do not use. I created breakglass because admin is not an emergency account.
-- helpdesk.t1, pim.admin, user.standard, leaver.marco = no directory role on day 1
-- Groups: GRP-Ops, GRP-Finance, GRP-IT. Security, Assigned, not role-assignable. Empty members.
-- Why helpdesk is not standing GA: standing GA on a tier-1 account is blast radius if that mailbox gets phished. Same idea as Remitly — do not leave the powerful action on the account that gets hit first. PIM later.
-- Tenant also contains a leftover personal account (Rusher Ink). I leave it. I do not treat it as a lab user. Do not print its UPN.
-- P2 blades visible: PIM, Identity Protection, Access reviews.
-- No Administrative Units, custom roles, access packages, on-prem AD.
+27 Aug 2026. Norte Club. Microsoft Entra ID P2 trial.
 
-Embed immediately after you mention users/groups:
+This is a lab directory, not production Entra.
+
+## Accounts
+
+Two admin accounts and four that hold nothing.
+
+`admin` is the Global Admin I sign into to build this tenant. It is the account I use all day, which is exactly why it is not an emergency account. So I created `breakglass`: a second Global Admin I do not use. It exists for the day `admin` is locked out, broken by a policy I wrote, or phished.
+
+`helpdesk.t1`, `pim.admin`, `user.standard`, and `leaver.marco` have no directory role on day 1. None of them.
+
 ![Users](screenshots/01-users.png)
+
+The tenant also carries a leftover personal account, Rusher Ink, from the way the trial was signed up. I leave it alone. It is not a lab user, it gets no group and no role, and I crop it out of screenshots.
+
+## Groups
+
+`GRP-Ops`, `GRP-Finance`, `GRP-IT`. Security groups, Assigned membership, not role-assignable. Members empty.
+
 ![Groups](screenshots/02-groups.png)
 
-Say once this is a lab directory, not production Entra. Then describe what I created. Do not write “I have no operational experience.”
+Not role-assignable is the deliberate part. A role-assignable group is a privilege path, and none of these three need to be one, so I did not leave that door open. Empty members is deliberate too. The containers exist. People go into them when there is a reason to put them there.
 
-Forbidden: Costa Norte, Decision #1 form with five bold labels, “what I did not do today” as a bullet list, “fill after you click,” hiring-manager language.
+## Why helpdesk.t1 is not a standing Global Admin
 
-Output markdown only.
+Tier 1 is the account that gets hit first. It takes requests from strangers all day and its whole job is to be helpful. Standing Global Admin on that account means a successful phish does not get a helpdesk mailbox, it gets the tenant. That is the blast radius I do not want to sign up for.
+
+Same idea I worked with at Remitly: do not leave the powerful action sitting on the account that gets hit first. PIM is the real answer here — elevation on request, with approval and a clock — and it comes later. Today the answer is blunter and still holds. `helpdesk.t1` has nothing to elevate from.
+
+## Scope
+
+PIM, Identity Protection, and Access reviews are visible in the portal on this P2 trial. Visible, not configured. I did not build Administrative Units, custom roles, access packages, or on-prem AD.
