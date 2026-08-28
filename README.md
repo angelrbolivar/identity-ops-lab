@@ -27,7 +27,9 @@ I do not administer Entra, Okta, AD, or M365 at work. That is the gap this lab i
 
 - Directory and groups: [01-identities.md](01-identities.md)
 - CA-01 / CA-02 / CA-03 On, Security defaults off: [02-conditional-access.md](02-conditional-access.md)
-- Live sign-in for `user.standard`, CA-01 Success on the log row, not What If: [evidence/tickets/NC-001-live-signin-user-standard.md](evidence/tickets/NC-001-live-signin-user-standard.md)
+- Live sign-in for `user.standard`, CA-01 Success on the log row, not What If: [NC-001](evidence/tickets/NC-001-live-signin-user-standard.md)
+- SSPR scoped to `GRP-SSPR-Enabled` only, not All: [NC-002](evidence/tickets/NC-002-sspr-group.md)
+- MFA wipe + session revoke + recover on `user.standard`: [NC-003](evidence/tickets/NC-003-mfa-wipe-user-standard.md)
 - Identity Secure Score baseline: 53.33% on 28 Aug 2026
 
 ## Users and groups
@@ -38,7 +40,8 @@ I do not administer Entra, Okta, AD, or M365 at work. That is the gap this lab i
 `breakglass` — standing Global Admin, unused, excluded from CA.
 `helpdesk.t1`, `pim.admin`, `user.standard`, `leaver.marco` — no standing directory role.
 
-Groups: `GRP-Ops`, `GRP-Finance`, `GRP-IT`. Security, assigned, empty, not role-assignable.
+Groups: `GRP-Ops`, `GRP-Finance`, `GRP-IT` — security, assigned, empty, not role-assignable.
+`GRP-SSPR-Enabled` — security, assigned, not role-assignable. Member: `user.standard` only.
 
 Leftover personal account from trial signup is cropped and unused.
 
@@ -73,6 +76,8 @@ Same-day Interrupted and Failure rows stay in the list shot. I did not crop them
 | ID | Action |
 |---|---|
 | [NC-001](evidence/tickets/NC-001-live-signin-user-standard.md) | Live sign-in `user.standard` to prove CA-01 |
+| [NC-002](evidence/tickets/NC-002-sspr-group.md) | SSPR on `GRP-SSPR-Enabled` only |
+| [NC-003](evidence/tickets/NC-003-mfa-wipe-user-standard.md) | MFA wipe, revoke sessions, recover `user.standard` |
 
 ## Out of scope
 
