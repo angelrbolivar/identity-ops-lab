@@ -31,6 +31,7 @@ I do not administer Entra, Okta, AD, or M365 at work. That is the gap this lab i
 - SSPR scoped to `GRP-SSPR-Enabled` only, not All: [NC-002](evidence/tickets/NC-002-sspr-group.md)
 - MFA wipe + session revoke + recover on `user.standard`: [NC-003](evidence/tickets/NC-003-mfa-wipe-user-standard.md)
 - Joiner TAP + Authenticator for `joiner.sofia`: [NC-004](evidence/tickets/NC-004-tap-joiner-sofia.md)
+- PIM: `pim.admin` eligible Authentication Administrator, approved activation, then deactivated: [NC-005](evidence/tickets/NC-005-pim-auth-admin-eligible.md)
 - Identity Secure Score baseline: 53.33% on 28 Aug 2026
 
 ## Users and groups
@@ -39,7 +40,7 @@ I do not administer Entra, Okta, AD, or M365 at work. That is the gap this lab i
 
 `admin` — daily Global Admin, in CA.
 `breakglass` — standing Global Admin, unused, excluded from CA.
-`helpdesk.t1`, `pim.admin`, `user.standard`, `leaver.marco`, `joiner.sofia` — no standing directory role.
+`helpdesk.t1`, `pim.admin`, `user.standard`, `leaver.marco`, `joiner.sofia` — no standing directory role. `pim.admin` is eligible Authentication Administrator via PIM only.
 
 Groups: `GRP-Ops`, `GRP-Finance`, `GRP-IT` — security, assigned, empty, not role-assignable.
 `GRP-SSPR-Enabled` — security, assigned, not role-assignable. Member: `user.standard` only.
@@ -80,6 +81,7 @@ Same-day Interrupted and Failure rows stay in the list shot. I did not crop them
 | [NC-002](evidence/tickets/NC-002-sspr-group.md) | SSPR on `GRP-SSPR-Enabled` only |
 | [NC-003](evidence/tickets/NC-003-mfa-wipe-user-standard.md) | MFA wipe, revoke sessions, recover `user.standard` |
 | [NC-004](evidence/tickets/NC-004-tap-joiner-sofia.md) | TAP joiner `joiner.sofia`, then Authenticator |
+| [NC-005](evidence/tickets/NC-005-pim-auth-admin-eligible.md) | PIM eligible Auth Admin, activate, approve, deactivate |
 
 ## Out of scope
 
