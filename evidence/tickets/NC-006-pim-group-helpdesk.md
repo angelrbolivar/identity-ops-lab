@@ -26,7 +26,7 @@ Privilege sits on `GRP-RA-Helpdesk`, not on the T1 user. Membership is the clock
 
 ![Group](../screenshots/34-grp-ra-helpdesk.png)
 
-![Assigned roles](../screenshots/34b-grp-ra-assigned-roles.png)
+![Assigned roles](../screenshots/34b-grp-ra-auth-admin.png)
 
 ## After — PIM for Groups Member settings
 
@@ -52,9 +52,13 @@ helpdesk.t1 Eligible Member, Direct, 31 Aug 2026 → 31 Aug 2027. Active list em
 
 helpdesk.t1 My roles → Groups → Member → Activate. Reason: NC-006 activate helpdesk membership. Duration 1 hour. Pending admin.
 
+![Pending](../screenshots/37a-pim-groups-pending.png)
+
 ## Approval
 
 admin Approve requests → Groups. Window 31 Aug 2026 2:03 PM → 3:03 PM.
+
+![Approved](../screenshots/37b-pim-groups-approved.png)
 
 ![Activated assignment](../screenshots/37-pim-groups-activated-member.png)
 
