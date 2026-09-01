@@ -23,7 +23,7 @@ I do not administer Entra, Okta, AD, or M365 at work. That is the gap this lab i
 
 ## What exists now
 
-31 Aug 2026. Hire bar complete.
+1 Sep 2026. Hire bar complete. Entitlement objects live before P2 dies.
 
 - Directory and groups: [01-identities.md](01-identities.md)
 - CA-01 / CA-02 / CA-03 On, Security defaults off: [02-conditional-access.md](02-conditional-access.md)
@@ -35,6 +35,9 @@ I do not administer Entra, Okta, AD, or M365 at work. That is the gap this lab i
 - T1 path: `GRP-RA-Helpdesk` holds Auth Admin. `helpdesk.t1` Eligible Member only: [NC-006](evidence/tickets/NC-006-pim-group-helpdesk.md)
 - Risk: CA-04 block High sign-in risk, CA-05 MFA Medium sign-in risk, CA-06 password change Medium+ user risk. Legacy IDP policies left Disabled: [NC-007](evidence/tickets/NC-007-risk-policies.md)
 - App: `nc-timeclock` assignment required on `GRP-Ops`. User consent disabled: [NC-008](evidence/tickets/NC-008-app-consent-lock.md)
+- Entitlement: catalog Norte Club, ToU, package `AP-Ops-Access` → `GRP-Ops` Member: [NC-009](evidence/tickets/NC-009-access-package-ops.md)
+- Access review `AR-Finance-Q` on `GRP-Finance`, reviewer `admin`, auto-apply off: [NC-010](evidence/tickets/NC-010-review-finance.md)
+- Directory fill: `ops.luis`, `finance.ana`, `mover.diego` in groups: [NC-011](evidence/tickets/NC-011-directory-fill.md)
 - Leaver: `leaver.marco` disabled, sessions revoked, `GRP-Ops` removed: [NC-012](evidence/tickets/NC-012-leaver-marco.md)
 - Identity Secure Score baseline: 53.33% on 28 Aug 2026
 
@@ -44,10 +47,10 @@ I do not administer Entra, Okta, AD, or M365 at work. That is the gap this lab i
 
 `admin` — daily Global Admin, in CA.
 `breakglass` — standing Global Admin, unused, excluded from CA.
-`helpdesk.t1`, `pim.admin`, `user.standard`, `joiner.sofia` — no standing directory role. `pim.admin` is eligible Authentication Administrator via PIM only.
+`helpdesk.t1`, `pim.admin`, `user.standard`, `joiner.sofia`, `ops.luis`, `finance.ana`, `mover.diego` — no standing directory role. `pim.admin` is eligible Authentication Administrator via PIM only.
 `leaver.marco` — disabled 31 Aug 2026. No standing role. Groups empty.
 
-Groups: `GRP-Ops`, `GRP-Finance`, `GRP-IT` — security, assigned, empty, not role-assignable.
+Groups: `GRP-Ops` members `Luis Ops`, `Diego Mover`. `GRP-Finance` member `Ana Finance`. `GRP-IT` empty. Not role-assignable.
 `GRP-SSPR-Enabled` — security, assigned, not role-assignable. Member: `user.standard` only.
 `GRP-RA-Helpdesk` — role-assignable. Auth Admin Active on the group. Zero standing members. `helpdesk.t1` Eligible Member.
 
@@ -94,6 +97,9 @@ Same-day Interrupted and Failure rows stay in the list shot. I did not crop them
 | [NC-006](evidence/tickets/NC-006-pim-group-helpdesk.md) | PIM for Groups T1 path |
 | [NC-007](evidence/tickets/NC-007-risk-policies.md) | Risk CA-04 / CA-05 / CA-06. Legacy IDP left Disabled |
 | [NC-008](evidence/tickets/NC-008-app-consent-lock.md) | nc-timeclock assignment required + consent lock |
+| [NC-009](evidence/tickets/NC-009-access-package-ops.md) | Catalog + ToU + `AP-Ops-Access` |
+| [NC-010](evidence/tickets/NC-010-review-finance.md) | Access review `AR-Finance-Q` on `GRP-Finance` |
+| [NC-011](evidence/tickets/NC-011-directory-fill.md) | Create `ops.luis`, `finance.ana`, `mover.diego`. Fill groups |
 | [NC-012](evidence/tickets/NC-012-leaver-marco.md) | Disable `leaver.marco`, revoke sessions |
 
 ## Out of scope
