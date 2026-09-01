@@ -34,6 +34,7 @@ I do not administer Entra, Okta, AD, or M365 at work. That is the gap this lab i
 - PIM: `pim.admin` eligible Authentication Administrator, approved activation, then deactivated: [NC-005](evidence/tickets/NC-005-pim-auth-admin-eligible.md)
 - T1 path: `GRP-RA-Helpdesk` holds Auth Admin. `helpdesk.t1` Eligible Member only: [NC-006](evidence/tickets/NC-006-pim-group-helpdesk.md)
 - Risk: CA-04 block High sign-in risk, CA-05 MFA Medium sign-in risk, CA-06 password change Medium+ user risk. Legacy IDP policies left Disabled: [NC-007](evidence/tickets/NC-007-risk-policies.md)
+- App: `nc-timeclock` assignment required on `GRP-Ops`. User consent disabled: [NC-008](evidence/tickets/NC-008-app-consent-lock.md)
 - Leaver: `leaver.marco` disabled, sessions revoked, `GRP-Ops` removed: [NC-012](evidence/tickets/NC-012-leaver-marco.md)
 - Identity Secure Score baseline: 53.33% on 28 Aug 2026
 
@@ -92,6 +93,7 @@ Same-day Interrupted and Failure rows stay in the list shot. I did not crop them
 | [NC-005](evidence/tickets/NC-005-pim-auth-admin-eligible.md) | PIM eligible Auth Admin, activate, approve, deactivate |
 | [NC-006](evidence/tickets/NC-006-pim-group-helpdesk.md) | PIM for Groups T1 path |
 | [NC-007](evidence/tickets/NC-007-risk-policies.md) | Risk CA-04 / CA-05 / CA-06. Legacy IDP left Disabled |
+| [NC-008](evidence/tickets/NC-008-app-consent-lock.md) | nc-timeclock assignment required + consent lock |
 | [NC-012](evidence/tickets/NC-012-leaver-marco.md) | Disable `leaver.marco`, revoke sessions |
 
 ## Out of scope
