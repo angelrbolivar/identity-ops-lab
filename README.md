@@ -115,9 +115,7 @@ All portal shots live in `evidence/tickets/` markdown and `evidence/screenshots/
 
 Tickets use `../screenshots/file.png` because they sit in `evidence/tickets/`. README and modules use `evidence/screenshots/file.png`.
 
-Crop Rusher Ink. Crop guest mailbox addresses.
-
-Graph JSON is not in the repo yet. When it lands it goes in `evidence/graph-exports/`.
+Graph is HOME only. Four scripts in `scripts/graph/`: `Export-Directory.ps1`, `Export-PimGov.ps1`, `Invoke-Leaver.ps1` (refuses `admin` and `breakglass`), `Export-SignInAudit.ps1` (optional, skip on 403). JSON lands in `evidence/graph-exports/`. Dumps do not exist until a home night runs them.
 
 ## Out of scope
 
