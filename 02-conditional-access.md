@@ -26,8 +26,8 @@ All users. Exclude Break Glass. All cloud apps. Require MFA. On.
 
 I turned Security defaults off only after this policy existed. Microsoft will not let both run.
 
-![CA-01 On](screenshots/05-ca-mfa-all.png)
-![Break Glass excluded from CA-01](screenshots/06-ca-exclude-breakglass.png)
+![CA-01 On](evidence/screenshots/05-ca-mfa-all.png)
+![Break Glass excluded from CA-01](evidence/screenshots/06-ca-exclude-breakglass.png)
 
 **CA-02-Block-Legacy-Auth**
 I used Microsoft’s “Block legacy authentication” template, then I edited it. The important part of that template is the client list: Exchange ActiveSync and Other clients. If I tick Browser by mistake I lock myself out. If I tick nothing, the policy does nothing.
@@ -56,9 +56,9 @@ What If was the first pass. It is not the hire-bar proof.
 
 | Who | Client | What If said | Shot |
 |---|---|---|---|
-| Standard User | Browser | CA-01 applies. Require MFA. | ![What If browser — MFA](screenshots/07-whatif-allow-mfa.png) |
-| Standard User | Other clients | CA-01 wants MFA. CA-02 blocks. Block wins. | ![What If legacy — block](screenshots/08-whatif-block-legacy.png) |
-| Break Glass | Browser | No policy applies. | ![What If Break Glass user](screenshots/09-whatif-breakglass-user.png) ![What If Break Glass — no policy](screenshots/09-whatif-breakglass-excluded.png) |
+| Standard User | Browser | CA-01 applies. Require MFA. | ![What If browser — MFA](evidence/screenshots/07-whatif-allow-mfa.png) |
+| Standard User | Other clients | CA-01 wants MFA. CA-02 blocks. Block wins. | ![What If legacy — block](evidence/screenshots/08-whatif-block-legacy.png) |
+| Break Glass | Browser | No policy applies. | ![What If Break Glass user](evidence/screenshots/09-whatif-breakglass-user.png) ![What If Break Glass — no policy](evidence/screenshots/09-whatif-breakglass-excluded.png) |
 
 Live row. 28 Aug 2026 12:58:50 PM. `user.standard`. Azure Portal. Success.
 

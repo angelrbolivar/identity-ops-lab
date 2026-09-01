@@ -46,7 +46,7 @@ I do not administer Entra, Okta, AD, or M365 at work. That is the gap this lab i
 
 ## Users and groups
 
-![Norte Club users](screenshots/01-users.png)
+![Norte Club users](evidence/screenshots/23-users-full.png)
 
 `admin` — daily Global Admin, in CA.
 `breakglass` — standing Global Admin, unused, excluded from CA.
@@ -62,7 +62,7 @@ Leftover personal account from trial signup is cropped and unused.
 
 ## Conditional Access
 
-![CA-01 On](screenshots/05-ca-mfa-all.png)
+![CA-01 On](evidence/screenshots/05-ca-mfa-all.png)
 
 Six policies, all On. `breakglass` excluded from each. `admin` is not.
 
@@ -108,6 +108,16 @@ Same-day Interrupted and Failure rows stay in the list shot. I did not crop them
 | [NC-013](evidence/tickets/NC-013-mover-diego.md) | Move `mover.diego` Ops → Finance |
 | [NC-014](evidence/tickets/NC-014-guest-vendor.md) | Invite `Vendor Guest`. No groups. No roles |
 | [NC-015](evidence/tickets/NC-015-mfa-wipe-via-pim.md) | Wipe `joiner.sofia` MFA while PIM Auth Admin active |
+
+## Evidence
+
+All portal shots live in `evidence/tickets/` markdown and `evidence/screenshots/`. There is no second `screenshots/` folder at repo root.
+
+Tickets use `../screenshots/file.png` because they sit in `evidence/tickets/`. README and modules use `evidence/screenshots/file.png`.
+
+Crop Rusher Ink. Crop guest mailbox addresses.
+
+Graph JSON is not in the repo yet. When it lands it goes in `evidence/graph-exports/`.
 
 ## Out of scope
 
