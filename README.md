@@ -39,6 +39,9 @@ I do not administer Entra, Okta, AD, or M365 at work. That is the gap this lab i
 - Access review `AR-Finance-Q` on `GRP-Finance`, reviewer `admin`, auto-apply off: [NC-010](evidence/tickets/NC-010-review-finance.md)
 - Directory fill: `ops.luis`, `finance.ana`, `mover.diego` in groups: [NC-011](evidence/tickets/NC-011-directory-fill.md)
 - Leaver: `leaver.marco` disabled, sessions revoked, `GRP-Ops` removed: [NC-012](evidence/tickets/NC-012-leaver-marco.md)
+- Mover: `mover.diego` left `GRP-Ops`, entered `GRP-Finance`: [NC-013](evidence/tickets/NC-013-mover-diego.md)
+- MFA wipe on `joiner.sofia` while `pim.admin` Auth Admin was active: [NC-015](evidence/tickets/NC-015-mfa-wipe-via-pim.md)
+- Guest: `Vendor Guest` invited, no groups, no roles: [NC-014](evidence/tickets/NC-014-guest-vendor.md)
 - Identity Secure Score baseline: 53.33% on 28 Aug 2026
 
 ## Users and groups
@@ -49,8 +52,9 @@ I do not administer Entra, Okta, AD, or M365 at work. That is the gap this lab i
 `breakglass` — standing Global Admin, unused, excluded from CA.
 `helpdesk.t1`, `pim.admin`, `user.standard`, `joiner.sofia`, `ops.luis`, `finance.ana`, `mover.diego` — no standing directory role. `pim.admin` is eligible Authentication Administrator via PIM only.
 `leaver.marco` — disabled 31 Aug 2026. No standing role. Groups empty.
+`Vendor Guest` — B2B. No group. No role.
 
-Groups: `GRP-Ops` members `Luis Ops`, `Diego Mover`. `GRP-Finance` member `Ana Finance`. `GRP-IT` empty. Not role-assignable.
+Groups: `GRP-Ops` member `Luis Ops`. `GRP-Finance` members `Ana Finance`, `Diego Mover`. `GRP-IT` empty. Not role-assignable.
 `GRP-SSPR-Enabled` — security, assigned, not role-assignable. Member: `user.standard` only.
 `GRP-RA-Helpdesk` — role-assignable. Auth Admin Active on the group. Zero standing members. `helpdesk.t1` Eligible Member.
 
@@ -101,6 +105,9 @@ Same-day Interrupted and Failure rows stay in the list shot. I did not crop them
 | [NC-010](evidence/tickets/NC-010-review-finance.md) | Access review `AR-Finance-Q` on `GRP-Finance` |
 | [NC-011](evidence/tickets/NC-011-directory-fill.md) | Create `ops.luis`, `finance.ana`, `mover.diego`. Fill groups |
 | [NC-012](evidence/tickets/NC-012-leaver-marco.md) | Disable `leaver.marco`, revoke sessions |
+| [NC-013](evidence/tickets/NC-013-mover-diego.md) | Move `mover.diego` Ops → Finance |
+| [NC-014](evidence/tickets/NC-014-guest-vendor.md) | Invite `Vendor Guest`. No groups. No roles |
+| [NC-015](evidence/tickets/NC-015-mfa-wipe-via-pim.md) | Wipe `joiner.sofia` MFA while PIM Auth Admin active |
 
 ## Out of scope
 
