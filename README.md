@@ -36,8 +36,8 @@ CompTIA Security+. Detection work lives in [angelrbolivar-soc-portfolio](https:/
 - Directory fill: `ops.luis`, `finance.ana`, `mover.diego` in groups: [NC-011](evidence/tickets/NC-011-directory-fill.md)
 - Leaver: `leaver.marco` disabled, sessions revoked, `GRP-Ops` removed: [NC-012](evidence/tickets/NC-012-leaver-marco.md)
 - Mover: `mover.diego` left `GRP-Ops`, entered `GRP-Finance`: [NC-013](evidence/tickets/NC-013-mover-diego.md)
-- MFA wipe on `joiner.sofia` while `pim.admin` Auth Admin was active: [NC-015](evidence/tickets/NC-015-mfa-wipe-via-pim.md)
 - Guest: `Vendor Guest` invited, no groups, no roles: [NC-014](evidence/tickets/NC-014-guest-vendor.md)
+- MFA wipe on `joiner.sofia` while `pim.admin` Auth Admin was active: [NC-015](evidence/tickets/NC-015-mfa-wipe-via-pim.md)
 - Identity Secure Score baseline: 53.33% on 28 Aug 2026
 
 ## Users and groups
