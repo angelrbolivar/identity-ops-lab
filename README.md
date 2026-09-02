@@ -19,7 +19,7 @@ CompTIA Security+. Detection work lives in [angelrbolivar-soc-portfolio](https:/
 
 ## What exists now
 
-2 Sep 2026. Hire bar complete. Graph dump 1 Sep 2026 is in git.
+2 Sep 2026. Live sign-in, MFA wipe, PIM walk, and leaver are in tickets. Graph dump 1 Sep 2026 is in git.
 
 - Directory and groups: [01-identities.md](01-identities.md)
 - CA-01 / CA-02 / CA-03 On, Security defaults off: [02-conditional-access.md](02-conditional-access.md)
@@ -69,7 +69,7 @@ Six policies, all On. `breakglass` excluded from each. `admin` is not.
 - **CA-05-MFA-Medium-Signin-Risk** — MFA on Medium sign-in risk
 - **CA-06-PasswordChange-Medium-User-Risk** — Password change on Medium and High user risk
 
-What If was the first pass. The hire-bar proof is a live row:
+What If was the first pass. Proof is the live row:
 
 28 Aug 2026 12:58:50 PM. `user.standard`. Azure Portal. Success.
 
@@ -83,7 +83,7 @@ What If was the first pass. The hire-bar proof is a live row:
 
 ![CA tab on that row](evidence/screenshots/13-user-standard-signin-ca01.png)
 
-Same-day Interrupted and Failure rows stay in the list shot. I did not crop them.
+Same-day Interrupted and Failure rows stay in the list shot.
 
 ## Tickets
 

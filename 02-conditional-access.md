@@ -48,11 +48,11 @@ Built 31 Aug 2026. Same exclude: Break Glass. `admin` stays in.
 - CA-05-MFA-Medium-Signin-Risk — MFA on Medium sign-in risk
 - CA-06-PasswordChange-Medium-User-Risk — password change on Medium and High user risk
 
-Legacy Identity Protection user-risk and sign-in-risk policies were already Disabled. I left them Disabled. I did not generate a fake risk event. NC-007.
+Legacy Identity Protection user-risk and sign-in-risk policies were already Disabled. I left them Disabled. No High sign-in-risk event in this tenant. NC-007.
 
 ## Proof
 
-What If was the first pass. It is not the hire-bar proof.
+What If was the first pass. The live log row is the proof.
 
 | Who | Client | What If said | Shot |
 |---|---|---|---|

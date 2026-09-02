@@ -42,7 +42,7 @@ Tier-1 takes requests from strangers. Standing privilege on that account is the 
 
 31 Aug 2026.
 
-ID Protection User risk and Sign-in risk policies are read-only and retire 1 Oct 2026. Both were Disabled. I left them Disabled. Live wiring is CA-04 Block High sign-in risk, CA-05 MFA Medium sign-in risk, CA-06 password change Medium+ user risk. Risk detections empty. I did not fake a risky sign-in. NC-007.
+ID Protection User risk and Sign-in risk policies are read-only and retire 1 Oct 2026. Both were Disabled. I left them Disabled. Live wiring is CA-04 Block High sign-in risk, CA-05 MFA Medium sign-in risk, CA-06 password change Medium+ user risk. Risk detections empty. NC-007.
 
 ## Assignment required before user consent
 

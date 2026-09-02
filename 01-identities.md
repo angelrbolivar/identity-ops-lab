@@ -18,7 +18,7 @@ No other account holds a standing directory role.
 | `breakglass` | Global Admin | Unused. Only CA exclude. |
 | `pim.admin` | none | Eligible Authentication Administrator. NC-005. |
 | `helpdesk.t1` | none | Eligible Member of `GRP-RA-Helpdesk` only. NC-006. |
-| `user.standard` | none | Hire-bar sign-in and MFA wipe. NC-001, NC-003. |
+| `user.standard` | none | Live sign-in and MFA wipe. NC-001, NC-003. |
 | `joiner.sofia` | none | TAP then Authenticator. Methods wiped under PIM. NC-004, NC-015. |
 | `ops.luis` | none | `GRP-Ops`. |
 | `finance.ana` | none | `GRP-Finance`. |
@@ -26,7 +26,7 @@ No other account holds a standing directory role.
 | `leaver.marco` | none | Disabled 31 Aug 2026. Groups empty. NC-012. |
 | `Vendor Guest` | none | B2B. No group. NC-014. |
 
-Rusher Ink is leftover from trial signup. Not a lab user. No group. No role I assigned. Crop it.
+Rusher Ink is leftover from trial signup. Not a lab user. No group. No role I assigned. Unused.
 
 Current directory list: [NC-011](evidence/tickets/NC-011-directory-fill.md). Guest: [NC-014](evidence/tickets/NC-014-guest-vendor.md).
 
