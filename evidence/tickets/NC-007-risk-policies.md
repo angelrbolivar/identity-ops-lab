@@ -3,7 +3,7 @@
 Date: 31 Aug 2026
 Requester: Norte Club security / ATO path
 Requested action: wire user risk and sign-in risk. High sign-in risk blocks. Medium sign-in risk requires MFA. Medium+ user risk requires password change.
-Verification: I own the tenant. breakglass is the emergency account.
+Verification: breakglass is the emergency account.
 
 ## Decision
 

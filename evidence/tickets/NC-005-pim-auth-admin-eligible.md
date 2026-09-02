@@ -4,7 +4,7 @@ Date: 28 Aug 2026
 Requester: PIM Operator / pim.admin
 Approver: admin
 Requested action: eligible Authentication Administrator, activate 1 hour, approve, deactivate
-Verification: I control both lab accounts
+Verification: I control pim.admin and admin
 
 ## Before
 

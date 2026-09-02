@@ -1,9 +1,9 @@
 # NC-009 access package AP-Ops-Access
 
 Date: 1 Sep 2026
-Requester: Norte Club ops (lab)
+Requester: Norte Club ops
 Requested action: publish catalog Norte Club, ToU, access package that grants GRP-Ops Member on request
-Verification: I own the tenant. admin is the only approver.
+Verification: admin is the only approver.
 
 ## Decision
 

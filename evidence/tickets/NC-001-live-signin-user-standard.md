@@ -1,9 +1,9 @@
 # NC-001 live sign-in user.standard
 
 Date: 28 Aug 2026
-Requester: Angel (lab operator)
+Requester: Angel
 Requested action: first interactive sign-in for user.standard to prove CA-01 with a log row, not What If
-Verification: I control the lab account user.standard@destinofinalrusheroutlook.onmicrosoft.com
+Verification: I control user.standard@destinofinalrusheroutlook.onmicrosoft.com
 Password reset this block: yes
 
 ## Before

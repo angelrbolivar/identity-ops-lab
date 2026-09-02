@@ -1,7 +1,7 @@
 # NC-004 TAP joiner.sofia
 
 Date: 28 Aug 2026
-Requester: Angel (lab operator)
+Requester: Angel
 Requested action: create joiner.sofia, issue a one-time TAP, redeem it, register Authenticator
 Verification: I created the account and issued the TAP
 

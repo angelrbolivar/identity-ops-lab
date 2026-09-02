@@ -1,9 +1,9 @@
 # NC-010 access review AR-Finance-Q
 
 Date: 1 Sep 2026
-Requester: Norte Club finance (lab)
+Requester: Norte Club finance
 Requested action: start one access review on GRP-Finance
-Verification: I own the tenant. Reviewer is admin only.
+Verification: Reviewer is admin only.
 
 ## Decision
 

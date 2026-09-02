@@ -1,9 +1,9 @@
 # NC-011 directory fill
 
 Date: 1 Sep 2026
-Requester: Norte Club ops (lab)
+Requester: Norte Club ops
 Requested action: create ops.luis, finance.ana, mover.diego. Put bodies in GRP-Ops and GRP-Finance
-Verification: I own the tenant. No directory roles on these three.
+Verification: No directory roles on these three.
 
 ## Decision
 
@@ -25,6 +25,6 @@ Three identities in the portal. No bulk create. No Graph. mover.diego starts in 
 
 ## Rollback
 
-Remove the three from groups. Delete the three users if the lab must shrink. Do not touch admin, breakglass, or GRP-RA-Helpdesk.
+Remove the three from groups. Delete the three users if they must go. Do not touch admin, breakglass, or GRP-RA-Helpdesk.
 
 Blades: Users > New user. Groups > GRP-Ops / GRP-Finance > Members.

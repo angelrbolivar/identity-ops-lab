@@ -1,7 +1,7 @@
 # NC-013 mover diego
 
 Date: 1 Sep 2026
-Requester: Norte Club HR (lab)
+Requester: Norte Club HR
 Requested action: move mover.diego from Ops to Finance. App grant follows GRP-Ops, so he loses nc-timeclock
 Verification: I own mover.diego. Ticket before any group change.
 

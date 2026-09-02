@@ -1,9 +1,9 @@
 # NC-008 app consent lock
 
 Date: 31 Aug 2026
-Requester: Norte Club ops (lab)
+Requester: Norte Club ops
 Requested action: publish nc-timeclock, assignment required, lock user consent
-Verification: I own the tenant. user.standard is not in GRP-Ops.
+Verification: user.standard is not in GRP-Ops.
 
 ## Decision
 

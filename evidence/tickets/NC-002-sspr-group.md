@@ -1,7 +1,7 @@
 # NC-002 SSPR on a group
 
 Date: 28 Aug 2026
-Requester: Angel (lab operator)
+Requester: Angel
 Requested action: enable self-service password reset for GRP-SSPR-Enabled only
 Verification: I own the lab directory
 

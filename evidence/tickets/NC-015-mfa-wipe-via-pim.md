@@ -1,13 +1,13 @@
 # NC-015 MFA wipe via PIM
 
 Date: 1 Sep 2026
-Requester: Norte Club ops (lab)
+Requester: Norte Club ops
 Requested action: wipe joiner.sofia MFA while pim.admin is elevated Authentication Administrator. Then drop the role.
 Verification: I own joiner.sofia. admin approves. Justification NC-015.
 
 ## Decision
 
-Same role as NC-005. Wipe is the work the role exists for. Do not wipe from standing GA. Do not use helpdesk.t1 on this ticket. Recover is out of scope here.
+Same role as NC-005. Wipe is the work the role exists for. Do not wipe from standing GA. Do not use helpdesk.t1 on this ticket.
 
 ## Before
 

@@ -1,7 +1,7 @@
 # NC-014 guest vendor
 
 Date: 1 Sep 2026
-Requester: Norte Club ops (lab)
+Requester: Norte Club ops
 Requested action: invite one B2B guest. No groups. No roles.
 Verification: inbox is off-tenant. I can open it.
 
