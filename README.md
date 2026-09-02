@@ -4,7 +4,7 @@ Norte Club is a fictional gym and payments company. I built its Entra tenant fro
 
 ## What I do in production
 
-At ABC Fitness I verify the requester's identity first along with their club unique ID#, I ask for pin secret as a 2FA method to authenticate client. then I check the level of authorization 1-low, 2-medium, 3-high, . Password resets for example... can only be authorized by a level 3 client, so only If I authenticate won't be enough if the authorization level thresshold is not met.
+At ABC Fitness I verify the requester's identity first along with their club unique ID#, I ask for pin secret as a 2FA method to authenticate client. then I check the level of authorization 1-low, 2-medium, 3-high, . Password resets for example... can only be authorized by a level 3 client, so only If I authenticate won't be enough if the authorization level thresshold is not met. Also in Security Roles configurations we authenticate + check authorization level, if less than 2 = do not permit, if is lvl 3 we can help configure the employees, trainers, sellers, admins roles + permissions and allowlists.
 
 At Remitly I triaged ATO and fraud alerts in a live queue under SLA: release, hold, or block (suspend), on incomplete information.
 
