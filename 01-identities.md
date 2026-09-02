@@ -52,4 +52,4 @@ Same idea I worked with at Remitly: do not leave the powerful action sitting on 
 
 Built on this P2 trial: users, groups, CA-01 through CA-06, SSPR, TAP, PIM for Entra roles, PIM for Groups, Identity Protection blades left Disabled, one enterprise app, consent lock, one catalog / ToU / access package, one access review, one B2B guest, JML as tickets.
 
-Not built: Administrative Units, custom roles, Lifecycle Workflows, Entra Connect, Intune, Okta, Sentinel on this tenant. Graph dump is HOME and is not in the repo yet.
+Not built: Administrative Units, custom roles, Lifecycle Workflows, Entra Connect, Intune, Okta, Sentinel on this tenant. Graph dump 1 Sep 2026 is in `evidence/graph-exports/`.

@@ -23,7 +23,7 @@ I do not administer Entra, Okta, AD, or M365 at work. That is the gap this lab i
 
 ## What exists now
 
-1 Sep 2026. Hire bar complete. Entitlement objects live before P2 dies.
+2 Sep 2026. Hire bar complete. Graph dump 1 Sep 2026 is in git.
 
 - Directory and groups: [01-identities.md](01-identities.md)
 - CA-01 / CA-02 / CA-03 On, Security defaults off: [02-conditional-access.md](02-conditional-access.md)
@@ -115,7 +115,15 @@ All portal shots live in `evidence/tickets/` markdown and `evidence/screenshots/
 
 Tickets use `../screenshots/file.png` because they sit in `evidence/tickets/`. README and modules use `evidence/screenshots/file.png`.
 
-Graph is HOME only. Four scripts in `scripts/graph/`: `Export-Directory.ps1`, `Export-PimGov.ps1`, `Invoke-Leaver.ps1` (refuses `admin` and `breakglass`), `Export-SignInAudit.ps1` (optional, skip on 403). JSON lands in `evidence/graph-exports/`. Dumps do not exist until a home night runs them.
+Graph is HOME only. Scripts in `scripts/graph/`. Dump night 1 Sep 2026, files in [evidence/graph-exports/](evidence/graph-exports/):
+
+- `20260901-users.json` `20260901-groups.json` `20260901-directory-roles.json` `20260901-ca-policies.json`
+- `20260901-pim-entra.json` `20260901-pim-groups.json` (thin)
+- `20260901-access-packages.json` `20260901-access-reviews.json`
+- `20260901-leaver-marco-before.json` `20260901-leaver-marco-after.json`
+- `20260901-signins.json` `20260901-audit.json`
+
+Leaver revoke used `POST .../revokeSignInSessions`. `Revoke-MgUserSignInSession` was not on the machine. Sign-in/audit used Graph REST, not `Microsoft.Graph.Reports`.
 
 ## Out of scope
 

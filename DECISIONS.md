@@ -72,4 +72,4 @@ Requester, verification, before, after, rollback. NC-001 through NC-015.
 
 1 Sep 2026.
 
-Portal built the tenant. Graph is not in the repo yet. When it lands it dumps state and runs leaver a second time. It does not create users.
+Portal built the tenant. Graph dumped it. Twelve JSON files in `evidence/graph-exports/` dated 20260901. Scripts do not create users. `Invoke-Leaver.ps1` refuses `admin` and `breakglass`. Leaver second pass disabled `leaver.marco` and revoked sessions via Graph REST.
