@@ -51,7 +51,7 @@ $before = [ordered]@{
 $before | ConvertTo-Json -Depth 6 | Set-Content -Encoding utf8 (Join-Path $outDir "$stamp-leaver-marco-before.json")
 
 Update-MgUser -UserId $user.Id -AccountEnabled:$false
-Revoke-MgUserSignInSession -UserId $user.Id | Out-Null
+Invoke-MgGraphRequest -Method POST -Uri "https://graph.microsoft.com/v1.0/users/$($user.Id)/revokeSignInSessions" | Out-Null
 
 foreach ($obj in $memberOf) {
     $odata = $obj.AdditionalProperties['@odata.type']
