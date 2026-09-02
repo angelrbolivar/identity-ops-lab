@@ -1,0 +1,95 @@
+﻿{
+    "AdditionalNotificationRecipients":  [
+
+                                         ],
+    "CreatedBy":  {
+                      "DisplayName":  "Admin",
+                      "IPAddress":  null,
+                      "Id":  "6c275017-4ddc-4329-b876-b60abc2a1218",
+                      "UserPrincipalName":  "admin@destinofinalrusheroutlook.onmicrosoft.com"
+                  },
+    "CreatedDateTime":  "\/Date(1788280045462)\/",
+    "DescriptionForAdmins":  "",
+    "DescriptionForReviewers":  "",
+    "DisplayName":  "AR-Finance-Q",
+    "FallbackReviewers":  [
+
+                          ],
+    "Id":  "f4879747-0eba-4664-b7d3-c14af045c8bd",
+    "InstanceEnumerationScope":  {
+
+                                 },
+    "Instances":  [
+
+                  ],
+    "LastModifiedDateTime":  "\/Date(1788280268347)\/",
+    "Reviewers":  [
+                      {
+                          "Query":  "/v1.0/users/6c275017-4ddc-4329-b876-b60abc2a1218",
+                          "QueryRoot":  null,
+                          "QueryType":  "MicrosoftGraph"
+                      }
+                  ],
+    "Scope":  {
+
+              },
+    "Settings":  {
+                     "ApplyActions":  [
+                                          {
+
+                                          }
+                                      ],
+                     "AutoApplyDecisionsEnabled":  false,
+                     "DecisionHistoriesForReviewersEnabled":  false,
+                     "DefaultDecision":  "None",
+                     "DefaultDecisionEnabled":  false,
+                     "InstanceDurationInDays":  3,
+                     "JustificationRequiredOnApproval":  true,
+                     "MailNotificationsEnabled":  true,
+                     "RecommendationInsightSettings":  [
+                                                           {
+
+                                                           }
+                                                       ],
+                     "RecommendationLookBackDuration":  {
+                                                            "Ticks":  25920000000000,
+                                                            "Days":  30,
+                                                            "Hours":  0,
+                                                            "Milliseconds":  0,
+                                                            "Minutes":  0,
+                                                            "Seconds":  0,
+                                                            "TotalDays":  30,
+                                                            "TotalHours":  720,
+                                                            "TotalMilliseconds":  2592000000,
+                                                            "TotalMinutes":  43200,
+                                                            "TotalSeconds":  2592000
+                                                        },
+                     "RecommendationsEnabled":  true,
+                     "Recurrence":  {
+                                        "Pattern":  {
+                                                        "DayOfMonth":  null,
+                                                        "DaysOfWeek":  null,
+                                                        "FirstDayOfWeek":  null,
+                                                        "Index":  null,
+                                                        "Interval":  null,
+                                                        "Month":  null,
+                                                        "Type":  null
+                                                    },
+                                        "Range":  {
+                                                      "EndDate":  "\/Date(1788498000000)\/",
+                                                      "NumberOfOccurrences":  0,
+                                                      "RecurrenceTimeZone":  null,
+                                                      "StartDate":  "\/Date(1788238800000)\/",
+                                                      "Type":  "endDate"
+                                                  }
+                                    },
+                     "ReminderNotificationsEnabled":  true
+                 },
+    "StageSettings":  [
+
+                      ],
+    "Status":  "Completed",
+    "AdditionalProperties":  {
+                                 "instances@odata.context":  "https://graph.microsoft.com/v1.0/$metadata#identityGovernance/accessReviews/definitions(\u0027f4879747-0eba-4664-b7d3-c14af045c8bd\u0027)/instances"
+                             }
+}

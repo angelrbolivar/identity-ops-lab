@@ -1,0 +1,1150 @@
+﻿{
+    "Eligible":  [
+                     {
+                         "AppScope":  {
+                                          "DisplayName":  null,
+                                          "Id":  null,
+                                          "Type":  null
+                                      },
+                         "AppScopeId":  null,
+                         "CreatedDateTime":  "\/Date(1787961445660)\/",
+                         "CreatedUsing":  "292eaf12-8bc6-4b96-9df4-9faaa347e4da",
+                         "DirectoryScope":  {
+                                                "DeletedDateTime":  null,
+                                                "Id":  null
+                                            },
+                         "DirectoryScopeId":  "/",
+                         "Id":  "292eaf12-8bc6-4b96-9df4-9faaa347e4da",
+                         "MemberType":  "Direct",
+                         "ModifiedDateTime":  "\/Date(-62135568000000)\/",
+                         "Principal":  {
+                                           "DeletedDateTime":  null,
+                                           "Id":  null
+                                       },
+                         "PrincipalId":  "d6c34b41-cf3b-4103-880f-db78e36e8c35",
+                         "RoleDefinition":  {
+                                                "Description":  null,
+                                                "DisplayName":  null,
+                                                "Id":  null,
+                                                "InheritsPermissionsFrom":  null,
+                                                "IsBuiltIn":  null,
+                                                "IsEnabled":  null,
+                                                "ResourceScopes":  null,
+                                                "RolePermissions":  null,
+                                                "TemplateId":  null,
+                                                "Version":  null
+                                            },
+                         "RoleDefinitionId":  "c4e39bd9-1100-46d3-8c65-fb160da0071f",
+                         "ScheduleInfo":  {
+                                              "Expiration":  {
+                                                                 "Duration":  null,
+                                                                 "EndDateTime":  null,
+                                                                 "Type":  "noExpiration"
+                                                             },
+                                              "Recurrence":  {
+                                                                 "Pattern":  {
+                                                                                 "DayOfMonth":  null,
+                                                                                 "DaysOfWeek":  null,
+                                                                                 "FirstDayOfWeek":  null,
+                                                                                 "Index":  null,
+                                                                                 "Interval":  null,
+                                                                                 "Month":  null,
+                                                                                 "Type":  null
+                                                                             },
+                                                                 "Range":  {
+                                                                               "EndDate":  null,
+                                                                               "NumberOfOccurrences":  null,
+                                                                               "RecurrenceTimeZone":  null,
+                                                                               "StartDate":  null,
+                                                                               "Type":  null
+                                                                           }
+                                                             },
+                                              "StartDateTime":  "\/Date(1787961445660)\/"
+                                          },
+                         "Status":  "Provisioned",
+                         "AdditionalProperties":  {
+
+                                                  }
+                     }
+                 ],
+    "EligibleInstances":  [
+                              {
+                                  "AppScope":  {
+                                                   "DisplayName":  null,
+                                                   "Id":  null,
+                                                   "Type":  null
+                                               },
+                                  "AppScopeId":  null,
+                                  "DirectoryScope":  {
+                                                         "DeletedDateTime":  null,
+                                                         "Id":  null
+                                                     },
+                                  "DirectoryScopeId":  "/",
+                                  "EndDateTime":  null,
+                                  "Id":  "2ZvjxAAR00aMZfsWDaAHH0FLw9Y7zwNBiA_beONujDU-1-e",
+                                  "MemberType":  "Direct",
+                                  "Principal":  {
+                                                    "DeletedDateTime":  null,
+                                                    "Id":  null
+                                                },
+                                  "PrincipalId":  "d6c34b41-cf3b-4103-880f-db78e36e8c35",
+                                  "RoleDefinition":  {
+                                                         "Description":  null,
+                                                         "DisplayName":  null,
+                                                         "Id":  null,
+                                                         "InheritsPermissionsFrom":  null,
+                                                         "IsBuiltIn":  null,
+                                                         "IsEnabled":  null,
+                                                         "ResourceScopes":  null,
+                                                         "RolePermissions":  null,
+                                                         "TemplateId":  null,
+                                                         "Version":  null
+                                                     },
+                                  "RoleDefinitionId":  "c4e39bd9-1100-46d3-8c65-fb160da0071f",
+                                  "RoleEligibilityScheduleId":  "292eaf12-8bc6-4b96-9df4-9faaa347e4da",
+                                  "StartDateTime":  "\/Date(1787961445660)\/",
+                                  "AdditionalProperties":  {
+
+                                                           }
+                              }
+                          ],
+    "Active":  [
+                   {
+                       "ActivatedUsing":  {
+                                              "AppScope":  {
+                                                               "DisplayName":  null,
+                                                               "Id":  null,
+                                                               "Type":  null
+                                                           },
+                                              "AppScopeId":  null,
+                                              "CreatedDateTime":  null,
+                                              "CreatedUsing":  null,
+                                              "DirectoryScope":  {
+                                                                     "DeletedDateTime":  null,
+                                                                     "Id":  null
+                                                                 },
+                                              "DirectoryScopeId":  null,
+                                              "Id":  null,
+                                              "MemberType":  null,
+                                              "ModifiedDateTime":  null,
+                                              "Principal":  {
+                                                                "DeletedDateTime":  null,
+                                                                "Id":  null
+                                                            },
+                                              "PrincipalId":  null,
+                                              "RoleDefinition":  {
+                                                                     "Description":  null,
+                                                                     "DisplayName":  null,
+                                                                     "Id":  null,
+                                                                     "InheritsPermissionsFrom":  null,
+                                                                     "IsBuiltIn":  null,
+                                                                     "IsEnabled":  null,
+                                                                     "ResourceScopes":  null,
+                                                                     "RolePermissions":  null,
+                                                                     "TemplateId":  null,
+                                                                     "Version":  null
+                                                                 },
+                                              "RoleDefinitionId":  null,
+                                              "ScheduleInfo":  {
+                                                                   "Expiration":  {
+                                                                                      "Duration":  null,
+                                                                                      "EndDateTime":  null,
+                                                                                      "Type":  null
+                                                                                  },
+                                                                   "Recurrence":  {
+                                                                                      "Pattern":  {
+                                                                                                      "DayOfMonth":  null,
+                                                                                                      "DaysOfWeek":  null,
+                                                                                                      "FirstDayOfWeek":  null,
+                                                                                                      "Index":  null,
+                                                                                                      "Interval":  null,
+                                                                                                      "Month":  null,
+                                                                                                      "Type":  null
+                                                                                                  },
+                                                                                      "Range":  {
+                                                                                                    "EndDate":  null,
+                                                                                                    "NumberOfOccurrences":  null,
+                                                                                                    "RecurrenceTimeZone":  null,
+                                                                                                    "StartDate":  null,
+                                                                                                    "Type":  null
+                                                                                                }
+                                                                                  },
+                                                                   "StartDateTime":  null
+                                                               },
+                                              "Status":  null
+                                          },
+                       "AppScope":  {
+                                        "DisplayName":  null,
+                                        "Id":  null,
+                                        "Type":  null
+                                    },
+                       "AppScopeId":  null,
+                       "AssignmentType":  "Assigned",
+                       "CreatedDateTime":  "\/Date(1788194213813)\/",
+                       "CreatedUsing":  "48da1c93-6a14-4c05-a80e-9749f6252a48",
+                       "DirectoryScope":  {
+                                              "DeletedDateTime":  null,
+                                              "Id":  null
+                                          },
+                       "DirectoryScopeId":  "/",
+                       "Id":  "48da1c93-6a14-4c05-a80e-9749f6252a48",
+                       "MemberType":  "Direct",
+                       "ModifiedDateTime":  null,
+                       "Principal":  {
+                                         "DeletedDateTime":  null,
+                                         "Id":  null
+                                     },
+                       "PrincipalId":  "5e1253db-d5ca-41a9-bfd6-78a55f01677e",
+                       "RoleDefinition":  {
+                                              "Description":  null,
+                                              "DisplayName":  null,
+                                              "Id":  null,
+                                              "InheritsPermissionsFrom":  null,
+                                              "IsBuiltIn":  null,
+                                              "IsEnabled":  null,
+                                              "ResourceScopes":  null,
+                                              "RolePermissions":  null,
+                                              "TemplateId":  null,
+                                              "Version":  null
+                                          },
+                       "RoleDefinitionId":  "c4e39bd9-1100-46d3-8c65-fb160da0071f",
+                       "ScheduleInfo":  {
+                                            "Expiration":  {
+                                                               "Duration":  null,
+                                                               "EndDateTime":  "\/Date(1803746054183)\/",
+                                                               "Type":  "afterDateTime"
+                                                           },
+                                            "Recurrence":  {
+                                                               "Pattern":  {
+                                                                               "DayOfMonth":  null,
+                                                                               "DaysOfWeek":  null,
+                                                                               "FirstDayOfWeek":  null,
+                                                                               "Index":  null,
+                                                                               "Interval":  null,
+                                                                               "Month":  null,
+                                                                               "Type":  null
+                                                                           },
+                                                               "Range":  {
+                                                                             "EndDate":  null,
+                                                                             "NumberOfOccurrences":  null,
+                                                                             "RecurrenceTimeZone":  null,
+                                                                             "StartDate":  null,
+                                                                             "Type":  null
+                                                                         }
+                                                           },
+                                            "StartDateTime":  "\/Date(1788194213813)\/"
+                                        },
+                       "Status":  "Provisioned",
+                       "AdditionalProperties":  {
+
+                                                }
+                   },
+                   {
+                       "ActivatedUsing":  {
+                                              "AppScope":  {
+                                                               "DisplayName":  null,
+                                                               "Id":  null,
+                                                               "Type":  null
+                                                           },
+                                              "AppScopeId":  null,
+                                              "CreatedDateTime":  null,
+                                              "CreatedUsing":  null,
+                                              "DirectoryScope":  {
+                                                                     "DeletedDateTime":  null,
+                                                                     "Id":  null
+                                                                 },
+                                              "DirectoryScopeId":  null,
+                                              "Id":  null,
+                                              "MemberType":  null,
+                                              "ModifiedDateTime":  null,
+                                              "Principal":  {
+                                                                "DeletedDateTime":  null,
+                                                                "Id":  null
+                                                            },
+                                              "PrincipalId":  null,
+                                              "RoleDefinition":  {
+                                                                     "Description":  null,
+                                                                     "DisplayName":  null,
+                                                                     "Id":  null,
+                                                                     "InheritsPermissionsFrom":  null,
+                                                                     "IsBuiltIn":  null,
+                                                                     "IsEnabled":  null,
+                                                                     "ResourceScopes":  null,
+                                                                     "RolePermissions":  null,
+                                                                     "TemplateId":  null,
+                                                                     "Version":  null
+                                                                 },
+                                              "RoleDefinitionId":  null,
+                                              "ScheduleInfo":  {
+                                                                   "Expiration":  {
+                                                                                      "Duration":  null,
+                                                                                      "EndDateTime":  null,
+                                                                                      "Type":  null
+                                                                                  },
+                                                                   "Recurrence":  {
+                                                                                      "Pattern":  {
+                                                                                                      "DayOfMonth":  null,
+                                                                                                      "DaysOfWeek":  null,
+                                                                                                      "FirstDayOfWeek":  null,
+                                                                                                      "Index":  null,
+                                                                                                      "Interval":  null,
+                                                                                                      "Month":  null,
+                                                                                                      "Type":  null
+                                                                                                  },
+                                                                                      "Range":  {
+                                                                                                    "EndDate":  null,
+                                                                                                    "NumberOfOccurrences":  null,
+                                                                                                    "RecurrenceTimeZone":  null,
+                                                                                                    "StartDate":  null,
+                                                                                                    "Type":  null
+                                                                                                }
+                                                                                  },
+                                                                   "StartDateTime":  null
+                                                               },
+                                              "Status":  null
+                                          },
+                       "AppScope":  {
+                                        "DisplayName":  null,
+                                        "Id":  null,
+                                        "Type":  null
+                                    },
+                       "AppScopeId":  null,
+                       "AssignmentType":  "Assigned",
+                       "CreatedDateTime":  null,
+                       "CreatedUsing":  null,
+                       "DirectoryScope":  {
+                                              "DeletedDateTime":  null,
+                                              "Id":  null
+                                          },
+                       "DirectoryScopeId":  "/",
+                       "Id":  "lAPpYvVpN0KRkAEhdxReEBdQJ2zcTSlDuHa2CrwqEhg-1",
+                       "MemberType":  "Direct",
+                       "ModifiedDateTime":  null,
+                       "Principal":  {
+                                         "DeletedDateTime":  null,
+                                         "Id":  null
+                                     },
+                       "PrincipalId":  "6c275017-4ddc-4329-b876-b60abc2a1218",
+                       "RoleDefinition":  {
+                                              "Description":  null,
+                                              "DisplayName":  null,
+                                              "Id":  null,
+                                              "InheritsPermissionsFrom":  null,
+                                              "IsBuiltIn":  null,
+                                              "IsEnabled":  null,
+                                              "ResourceScopes":  null,
+                                              "RolePermissions":  null,
+                                              "TemplateId":  null,
+                                              "Version":  null
+                                          },
+                       "RoleDefinitionId":  "62e90394-69f5-4237-9190-012177145e10",
+                       "ScheduleInfo":  {
+                                            "Expiration":  {
+                                                               "Duration":  null,
+                                                               "EndDateTime":  null,
+                                                               "Type":  "noExpiration"
+                                                           },
+                                            "Recurrence":  {
+                                                               "Pattern":  {
+                                                                               "DayOfMonth":  null,
+                                                                               "DaysOfWeek":  null,
+                                                                               "FirstDayOfWeek":  null,
+                                                                               "Index":  null,
+                                                                               "Interval":  null,
+                                                                               "Month":  null,
+                                                                               "Type":  null
+                                                                           },
+                                                               "Range":  {
+                                                                             "EndDate":  null,
+                                                                             "NumberOfOccurrences":  null,
+                                                                             "RecurrenceTimeZone":  null,
+                                                                             "StartDate":  null,
+                                                                             "Type":  null
+                                                                         }
+                                                           },
+                                            "StartDateTime":  "\/Date(1788323549657)\/"
+                                        },
+                       "Status":  "Provisioned",
+                       "AdditionalProperties":  {
+
+                                                }
+                   },
+                   {
+                       "ActivatedUsing":  {
+                                              "AppScope":  {
+                                                               "DisplayName":  null,
+                                                               "Id":  null,
+                                                               "Type":  null
+                                                           },
+                                              "AppScopeId":  null,
+                                              "CreatedDateTime":  null,
+                                              "CreatedUsing":  null,
+                                              "DirectoryScope":  {
+                                                                     "DeletedDateTime":  null,
+                                                                     "Id":  null
+                                                                 },
+                                              "DirectoryScopeId":  null,
+                                              "Id":  null,
+                                              "MemberType":  null,
+                                              "ModifiedDateTime":  null,
+                                              "Principal":  {
+                                                                "DeletedDateTime":  null,
+                                                                "Id":  null
+                                                            },
+                                              "PrincipalId":  null,
+                                              "RoleDefinition":  {
+                                                                     "Description":  null,
+                                                                     "DisplayName":  null,
+                                                                     "Id":  null,
+                                                                     "InheritsPermissionsFrom":  null,
+                                                                     "IsBuiltIn":  null,
+                                                                     "IsEnabled":  null,
+                                                                     "ResourceScopes":  null,
+                                                                     "RolePermissions":  null,
+                                                                     "TemplateId":  null,
+                                                                     "Version":  null
+                                                                 },
+                                              "RoleDefinitionId":  null,
+                                              "ScheduleInfo":  {
+                                                                   "Expiration":  {
+                                                                                      "Duration":  null,
+                                                                                      "EndDateTime":  null,
+                                                                                      "Type":  null
+                                                                                  },
+                                                                   "Recurrence":  {
+                                                                                      "Pattern":  {
+                                                                                                      "DayOfMonth":  null,
+                                                                                                      "DaysOfWeek":  null,
+                                                                                                      "FirstDayOfWeek":  null,
+                                                                                                      "Index":  null,
+                                                                                                      "Interval":  null,
+                                                                                                      "Month":  null,
+                                                                                                      "Type":  null
+                                                                                                  },
+                                                                                      "Range":  {
+                                                                                                    "EndDate":  null,
+                                                                                                    "NumberOfOccurrences":  null,
+                                                                                                    "RecurrenceTimeZone":  null,
+                                                                                                    "StartDate":  null,
+                                                                                                    "Type":  null
+                                                                                                }
+                                                                                  },
+                                                                   "StartDateTime":  null
+                                                               },
+                                              "Status":  null
+                                          },
+                       "AppScope":  {
+                                        "DisplayName":  null,
+                                        "Id":  null,
+                                        "Type":  null
+                                    },
+                       "AppScopeId":  null,
+                       "AssignmentType":  "Assigned",
+                       "CreatedDateTime":  null,
+                       "CreatedUsing":  null,
+                       "DirectoryScope":  {
+                                              "DeletedDateTime":  null,
+                                              "Id":  null
+                                          },
+                       "DirectoryScopeId":  "/",
+                       "Id":  "lAPpYvVpN0KRkAEhdxReEI1RAG8o88ZIqqSNkWeqWys-1",
+                       "MemberType":  "Direct",
+                       "ModifiedDateTime":  null,
+                       "Principal":  {
+                                         "DeletedDateTime":  null,
+                                         "Id":  null
+                                     },
+                       "PrincipalId":  "6f00518d-f328-48c6-aaa4-8d9167aa5b2b",
+                       "RoleDefinition":  {
+                                              "Description":  null,
+                                              "DisplayName":  null,
+                                              "Id":  null,
+                                              "InheritsPermissionsFrom":  null,
+                                              "IsBuiltIn":  null,
+                                              "IsEnabled":  null,
+                                              "ResourceScopes":  null,
+                                              "RolePermissions":  null,
+                                              "TemplateId":  null,
+                                              "Version":  null
+                                          },
+                       "RoleDefinitionId":  "62e90394-69f5-4237-9190-012177145e10",
+                       "ScheduleInfo":  {
+                                            "Expiration":  {
+                                                               "Duration":  null,
+                                                               "EndDateTime":  null,
+                                                               "Type":  "noExpiration"
+                                                           },
+                                            "Recurrence":  {
+                                                               "Pattern":  {
+                                                                               "DayOfMonth":  null,
+                                                                               "DaysOfWeek":  null,
+                                                                               "FirstDayOfWeek":  null,
+                                                                               "Index":  null,
+                                                                               "Interval":  null,
+                                                                               "Month":  null,
+                                                                               "Type":  null
+                                                                           },
+                                                               "Range":  {
+                                                                             "EndDate":  null,
+                                                                             "NumberOfOccurrences":  null,
+                                                                             "RecurrenceTimeZone":  null,
+                                                                             "StartDate":  null,
+                                                                             "Type":  null
+                                                                         }
+                                                           },
+                                            "StartDateTime":  "\/Date(1788323549657)\/"
+                                        },
+                       "Status":  "Provisioned",
+                       "AdditionalProperties":  {
+
+                                                }
+                   },
+                   {
+                       "ActivatedUsing":  {
+                                              "AppScope":  {
+                                                               "DisplayName":  null,
+                                                               "Id":  null,
+                                                               "Type":  null
+                                                           },
+                                              "AppScopeId":  null,
+                                              "CreatedDateTime":  null,
+                                              "CreatedUsing":  null,
+                                              "DirectoryScope":  {
+                                                                     "DeletedDateTime":  null,
+                                                                     "Id":  null
+                                                                 },
+                                              "DirectoryScopeId":  null,
+                                              "Id":  null,
+                                              "MemberType":  null,
+                                              "ModifiedDateTime":  null,
+                                              "Principal":  {
+                                                                "DeletedDateTime":  null,
+                                                                "Id":  null
+                                                            },
+                                              "PrincipalId":  null,
+                                              "RoleDefinition":  {
+                                                                     "Description":  null,
+                                                                     "DisplayName":  null,
+                                                                     "Id":  null,
+                                                                     "InheritsPermissionsFrom":  null,
+                                                                     "IsBuiltIn":  null,
+                                                                     "IsEnabled":  null,
+                                                                     "ResourceScopes":  null,
+                                                                     "RolePermissions":  null,
+                                                                     "TemplateId":  null,
+                                                                     "Version":  null
+                                                                 },
+                                              "RoleDefinitionId":  null,
+                                              "ScheduleInfo":  {
+                                                                   "Expiration":  {
+                                                                                      "Duration":  null,
+                                                                                      "EndDateTime":  null,
+                                                                                      "Type":  null
+                                                                                  },
+                                                                   "Recurrence":  {
+                                                                                      "Pattern":  {
+                                                                                                      "DayOfMonth":  null,
+                                                                                                      "DaysOfWeek":  null,
+                                                                                                      "FirstDayOfWeek":  null,
+                                                                                                      "Index":  null,
+                                                                                                      "Interval":  null,
+                                                                                                      "Month":  null,
+                                                                                                      "Type":  null
+                                                                                                  },
+                                                                                      "Range":  {
+                                                                                                    "EndDate":  null,
+                                                                                                    "NumberOfOccurrences":  null,
+                                                                                                    "RecurrenceTimeZone":  null,
+                                                                                                    "StartDate":  null,
+                                                                                                    "Type":  null
+                                                                                                }
+                                                                                  },
+                                                                   "StartDateTime":  null
+                                                               },
+                                              "Status":  null
+                                          },
+                       "AppScope":  {
+                                        "DisplayName":  null,
+                                        "Id":  null,
+                                        "Type":  null
+                                    },
+                       "AppScopeId":  null,
+                       "AssignmentType":  "Assigned",
+                       "CreatedDateTime":  null,
+                       "CreatedUsing":  null,
+                       "DirectoryScope":  {
+                                              "DeletedDateTime":  null,
+                                              "Id":  null
+                                          },
+                       "DirectoryScopeId":  "/",
+                       "Id":  "lAPpYvVpN0KRkAEhdxReECeoxe3ZRItLrTz7hd6y6U8-1",
+                       "MemberType":  "Direct",
+                       "ModifiedDateTime":  null,
+                       "Principal":  {
+                                         "DeletedDateTime":  null,
+                                         "Id":  null
+                                     },
+                       "PrincipalId":  "edc5a827-44d9-4b8b-ad3c-fb85deb2e94f",
+                       "RoleDefinition":  {
+                                              "Description":  null,
+                                              "DisplayName":  null,
+                                              "Id":  null,
+                                              "InheritsPermissionsFrom":  null,
+                                              "IsBuiltIn":  null,
+                                              "IsEnabled":  null,
+                                              "ResourceScopes":  null,
+                                              "RolePermissions":  null,
+                                              "TemplateId":  null,
+                                              "Version":  null
+                                          },
+                       "RoleDefinitionId":  "62e90394-69f5-4237-9190-012177145e10",
+                       "ScheduleInfo":  {
+                                            "Expiration":  {
+                                                               "Duration":  null,
+                                                               "EndDateTime":  null,
+                                                               "Type":  "noExpiration"
+                                                           },
+                                            "Recurrence":  {
+                                                               "Pattern":  {
+                                                                               "DayOfMonth":  null,
+                                                                               "DaysOfWeek":  null,
+                                                                               "FirstDayOfWeek":  null,
+                                                                               "Index":  null,
+                                                                               "Interval":  null,
+                                                                               "Month":  null,
+                                                                               "Type":  null
+                                                                           },
+                                                               "Range":  {
+                                                                             "EndDate":  null,
+                                                                             "NumberOfOccurrences":  null,
+                                                                             "RecurrenceTimeZone":  null,
+                                                                             "StartDate":  null,
+                                                                             "Type":  null
+                                                                         }
+                                                           },
+                                            "StartDateTime":  "\/Date(1788323549657)\/"
+                                        },
+                       "Status":  "Provisioned",
+                       "AdditionalProperties":  {
+
+                                                }
+                   },
+                   {
+                       "ActivatedUsing":  {
+                                              "AppScope":  {
+                                                               "DisplayName":  null,
+                                                               "Id":  null,
+                                                               "Type":  null
+                                                           },
+                                              "AppScopeId":  null,
+                                              "CreatedDateTime":  null,
+                                              "CreatedUsing":  null,
+                                              "DirectoryScope":  {
+                                                                     "DeletedDateTime":  null,
+                                                                     "Id":  null
+                                                                 },
+                                              "DirectoryScopeId":  null,
+                                              "Id":  null,
+                                              "MemberType":  null,
+                                              "ModifiedDateTime":  null,
+                                              "Principal":  {
+                                                                "DeletedDateTime":  null,
+                                                                "Id":  null
+                                                            },
+                                              "PrincipalId":  null,
+                                              "RoleDefinition":  {
+                                                                     "Description":  null,
+                                                                     "DisplayName":  null,
+                                                                     "Id":  null,
+                                                                     "InheritsPermissionsFrom":  null,
+                                                                     "IsBuiltIn":  null,
+                                                                     "IsEnabled":  null,
+                                                                     "ResourceScopes":  null,
+                                                                     "RolePermissions":  null,
+                                                                     "TemplateId":  null,
+                                                                     "Version":  null
+                                                                 },
+                                              "RoleDefinitionId":  null,
+                                              "ScheduleInfo":  {
+                                                                   "Expiration":  {
+                                                                                      "Duration":  null,
+                                                                                      "EndDateTime":  null,
+                                                                                      "Type":  null
+                                                                                  },
+                                                                   "Recurrence":  {
+                                                                                      "Pattern":  {
+                                                                                                      "DayOfMonth":  null,
+                                                                                                      "DaysOfWeek":  null,
+                                                                                                      "FirstDayOfWeek":  null,
+                                                                                                      "Index":  null,
+                                                                                                      "Interval":  null,
+                                                                                                      "Month":  null,
+                                                                                                      "Type":  null
+                                                                                                  },
+                                                                                      "Range":  {
+                                                                                                    "EndDate":  null,
+                                                                                                    "NumberOfOccurrences":  null,
+                                                                                                    "RecurrenceTimeZone":  null,
+                                                                                                    "StartDate":  null,
+                                                                                                    "Type":  null
+                                                                                                }
+                                                                                  },
+                                                                   "StartDateTime":  null
+                                                               },
+                                              "Status":  null
+                                          },
+                       "AppScope":  {
+                                        "DisplayName":  null,
+                                        "Id":  null,
+                                        "Type":  null
+                                    },
+                       "AppScopeId":  null,
+                       "AssignmentType":  "Assigned",
+                       "CreatedDateTime":  null,
+                       "CreatedUsing":  null,
+                       "DirectoryScope":  {
+                                              "DeletedDateTime":  null,
+                                              "Id":  null
+                                          },
+                       "DirectoryScopeId":  "/",
+                       "Id":  "4-PYiFWPHkqVOpuYmLiHa4sjvJ21N-xApdw6yqpoASs-1",
+                       "MemberType":  "Direct",
+                       "ModifiedDateTime":  null,
+                       "Principal":  {
+                                         "DeletedDateTime":  null,
+                                         "Id":  null
+                                     },
+                       "PrincipalId":  "9dbc238b-37b5-40ec-a5dc-3acaaa68012b",
+                       "RoleDefinition":  {
+                                              "Description":  null,
+                                              "DisplayName":  null,
+                                              "Id":  null,
+                                              "InheritsPermissionsFrom":  null,
+                                              "IsBuiltIn":  null,
+                                              "IsEnabled":  null,
+                                              "ResourceScopes":  null,
+                                              "RolePermissions":  null,
+                                              "TemplateId":  null,
+                                              "Version":  null
+                                          },
+                       "RoleDefinitionId":  "88d8e3e3-8f55-4a1e-953a-9b9898b8876b",
+                       "ScheduleInfo":  {
+                                            "Expiration":  {
+                                                               "Duration":  null,
+                                                               "EndDateTime":  null,
+                                                               "Type":  "noExpiration"
+                                                           },
+                                            "Recurrence":  {
+                                                               "Pattern":  {
+                                                                               "DayOfMonth":  null,
+                                                                               "DaysOfWeek":  null,
+                                                                               "FirstDayOfWeek":  null,
+                                                                               "Index":  null,
+                                                                               "Interval":  null,
+                                                                               "Month":  null,
+                                                                               "Type":  null
+                                                                           },
+                                                               "Range":  {
+                                                                             "EndDate":  null,
+                                                                             "NumberOfOccurrences":  null,
+                                                                             "RecurrenceTimeZone":  null,
+                                                                             "StartDate":  null,
+                                                                             "Type":  null
+                                                                         }
+                                                           },
+                                            "StartDateTime":  "\/Date(1788323549657)\/"
+                                        },
+                       "Status":  "Provisioned",
+                       "AdditionalProperties":  {
+
+                                                }
+                   }
+               ],
+    "ActiveInstances":  [
+                            {
+                                "ActivatedUsing":  {
+                                                       "AppScope":  {
+                                                                        "DisplayName":  null,
+                                                                        "Id":  null,
+                                                                        "Type":  null
+                                                                    },
+                                                       "AppScopeId":  null,
+                                                       "DirectoryScope":  {
+                                                                              "DeletedDateTime":  null,
+                                                                              "Id":  null
+                                                                          },
+                                                       "DirectoryScopeId":  null,
+                                                       "EndDateTime":  null,
+                                                       "Id":  null,
+                                                       "MemberType":  null,
+                                                       "Principal":  {
+                                                                         "DeletedDateTime":  null,
+                                                                         "Id":  null
+                                                                     },
+                                                       "PrincipalId":  null,
+                                                       "RoleDefinition":  {
+                                                                              "Description":  null,
+                                                                              "DisplayName":  null,
+                                                                              "Id":  null,
+                                                                              "InheritsPermissionsFrom":  null,
+                                                                              "IsBuiltIn":  null,
+                                                                              "IsEnabled":  null,
+                                                                              "ResourceScopes":  null,
+                                                                              "RolePermissions":  null,
+                                                                              "TemplateId":  null,
+                                                                              "Version":  null
+                                                                          },
+                                                       "RoleDefinitionId":  null,
+                                                       "RoleEligibilityScheduleId":  null,
+                                                       "StartDateTime":  null
+                                                   },
+                                "AppScope":  {
+                                                 "DisplayName":  null,
+                                                 "Id":  null,
+                                                 "Type":  null
+                                             },
+                                "AppScopeId":  null,
+                                "AssignmentType":  "Assigned",
+                                "DirectoryScope":  {
+                                                       "DeletedDateTime":  null,
+                                                       "Id":  null
+                                                   },
+                                "DirectoryScopeId":  "/",
+                                "EndDateTime":  "\/Date(1803746054183)\/",
+                                "Id":  "2ZvjxAAR00aMZfsWDaAHH9tTEl7K1alBv9Z4pV8BZ34-1",
+                                "MemberType":  "Direct",
+                                "Principal":  {
+                                                  "DeletedDateTime":  null,
+                                                  "Id":  null
+                                              },
+                                "PrincipalId":  "5e1253db-d5ca-41a9-bfd6-78a55f01677e",
+                                "RoleAssignmentOriginId":  "2ZvjxAAR00aMZfsWDaAHH9tTEl7K1alBv9Z4pV8BZ34-1",
+                                "RoleAssignmentScheduleId":  "48da1c93-6a14-4c05-a80e-9749f6252a48",
+                                "RoleDefinition":  {
+                                                       "Description":  null,
+                                                       "DisplayName":  null,
+                                                       "Id":  null,
+                                                       "InheritsPermissionsFrom":  null,
+                                                       "IsBuiltIn":  null,
+                                                       "IsEnabled":  null,
+                                                       "ResourceScopes":  null,
+                                                       "RolePermissions":  null,
+                                                       "TemplateId":  null,
+                                                       "Version":  null
+                                                   },
+                                "RoleDefinitionId":  "c4e39bd9-1100-46d3-8c65-fb160da0071f",
+                                "StartDateTime":  "\/Date(1788194213813)\/",
+                                "AdditionalProperties":  {
+
+                                                         }
+                            },
+                            {
+                                "ActivatedUsing":  {
+                                                       "AppScope":  {
+                                                                        "DisplayName":  null,
+                                                                        "Id":  null,
+                                                                        "Type":  null
+                                                                    },
+                                                       "AppScopeId":  null,
+                                                       "DirectoryScope":  {
+                                                                              "DeletedDateTime":  null,
+                                                                              "Id":  null
+                                                                          },
+                                                       "DirectoryScopeId":  null,
+                                                       "EndDateTime":  null,
+                                                       "Id":  null,
+                                                       "MemberType":  null,
+                                                       "Principal":  {
+                                                                         "DeletedDateTime":  null,
+                                                                         "Id":  null
+                                                                     },
+                                                       "PrincipalId":  null,
+                                                       "RoleDefinition":  {
+                                                                              "Description":  null,
+                                                                              "DisplayName":  null,
+                                                                              "Id":  null,
+                                                                              "InheritsPermissionsFrom":  null,
+                                                                              "IsBuiltIn":  null,
+                                                                              "IsEnabled":  null,
+                                                                              "ResourceScopes":  null,
+                                                                              "RolePermissions":  null,
+                                                                              "TemplateId":  null,
+                                                                              "Version":  null
+                                                                          },
+                                                       "RoleDefinitionId":  null,
+                                                       "RoleEligibilityScheduleId":  null,
+                                                       "StartDateTime":  null
+                                                   },
+                                "AppScope":  {
+                                                 "DisplayName":  null,
+                                                 "Id":  null,
+                                                 "Type":  null
+                                             },
+                                "AppScopeId":  null,
+                                "AssignmentType":  "Assigned",
+                                "DirectoryScope":  {
+                                                       "DeletedDateTime":  null,
+                                                       "Id":  null
+                                                   },
+                                "DirectoryScopeId":  "/",
+                                "EndDateTime":  null,
+                                "Id":  "lAPpYvVpN0KRkAEhdxReEBdQJ2zcTSlDuHa2CrwqEhg-1",
+                                "MemberType":  "Direct",
+                                "Principal":  {
+                                                  "DeletedDateTime":  null,
+                                                  "Id":  null
+                                              },
+                                "PrincipalId":  "6c275017-4ddc-4329-b876-b60abc2a1218",
+                                "RoleAssignmentOriginId":  "lAPpYvVpN0KRkAEhdxReEBdQJ2zcTSlDuHa2CrwqEhg-1",
+                                "RoleAssignmentScheduleId":  "lAPpYvVpN0KRkAEhdxReEBdQJ2zcTSlDuHa2CrwqEhg-1",
+                                "RoleDefinition":  {
+                                                       "Description":  null,
+                                                       "DisplayName":  null,
+                                                       "Id":  null,
+                                                       "InheritsPermissionsFrom":  null,
+                                                       "IsBuiltIn":  null,
+                                                       "IsEnabled":  null,
+                                                       "ResourceScopes":  null,
+                                                       "RolePermissions":  null,
+                                                       "TemplateId":  null,
+                                                       "Version":  null
+                                                   },
+                                "RoleDefinitionId":  "62e90394-69f5-4237-9190-012177145e10",
+                                "StartDateTime":  null,
+                                "AdditionalProperties":  {
+
+                                                         }
+                            },
+                            {
+                                "ActivatedUsing":  {
+                                                       "AppScope":  {
+                                                                        "DisplayName":  null,
+                                                                        "Id":  null,
+                                                                        "Type":  null
+                                                                    },
+                                                       "AppScopeId":  null,
+                                                       "DirectoryScope":  {
+                                                                              "DeletedDateTime":  null,
+                                                                              "Id":  null
+                                                                          },
+                                                       "DirectoryScopeId":  null,
+                                                       "EndDateTime":  null,
+                                                       "Id":  null,
+                                                       "MemberType":  null,
+                                                       "Principal":  {
+                                                                         "DeletedDateTime":  null,
+                                                                         "Id":  null
+                                                                     },
+                                                       "PrincipalId":  null,
+                                                       "RoleDefinition":  {
+                                                                              "Description":  null,
+                                                                              "DisplayName":  null,
+                                                                              "Id":  null,
+                                                                              "InheritsPermissionsFrom":  null,
+                                                                              "IsBuiltIn":  null,
+                                                                              "IsEnabled":  null,
+                                                                              "ResourceScopes":  null,
+                                                                              "RolePermissions":  null,
+                                                                              "TemplateId":  null,
+                                                                              "Version":  null
+                                                                          },
+                                                       "RoleDefinitionId":  null,
+                                                       "RoleEligibilityScheduleId":  null,
+                                                       "StartDateTime":  null
+                                                   },
+                                "AppScope":  {
+                                                 "DisplayName":  null,
+                                                 "Id":  null,
+                                                 "Type":  null
+                                             },
+                                "AppScopeId":  null,
+                                "AssignmentType":  "Assigned",
+                                "DirectoryScope":  {
+                                                       "DeletedDateTime":  null,
+                                                       "Id":  null
+                                                   },
+                                "DirectoryScopeId":  "/",
+                                "EndDateTime":  null,
+                                "Id":  "lAPpYvVpN0KRkAEhdxReEI1RAG8o88ZIqqSNkWeqWys-1",
+                                "MemberType":  "Direct",
+                                "Principal":  {
+                                                  "DeletedDateTime":  null,
+                                                  "Id":  null
+                                              },
+                                "PrincipalId":  "6f00518d-f328-48c6-aaa4-8d9167aa5b2b",
+                                "RoleAssignmentOriginId":  "lAPpYvVpN0KRkAEhdxReEI1RAG8o88ZIqqSNkWeqWys-1",
+                                "RoleAssignmentScheduleId":  "lAPpYvVpN0KRkAEhdxReEI1RAG8o88ZIqqSNkWeqWys-1",
+                                "RoleDefinition":  {
+                                                       "Description":  null,
+                                                       "DisplayName":  null,
+                                                       "Id":  null,
+                                                       "InheritsPermissionsFrom":  null,
+                                                       "IsBuiltIn":  null,
+                                                       "IsEnabled":  null,
+                                                       "ResourceScopes":  null,
+                                                       "RolePermissions":  null,
+                                                       "TemplateId":  null,
+                                                       "Version":  null
+                                                   },
+                                "RoleDefinitionId":  "62e90394-69f5-4237-9190-012177145e10",
+                                "StartDateTime":  null,
+                                "AdditionalProperties":  {
+
+                                                         }
+                            },
+                            {
+                                "ActivatedUsing":  {
+                                                       "AppScope":  {
+                                                                        "DisplayName":  null,
+                                                                        "Id":  null,
+                                                                        "Type":  null
+                                                                    },
+                                                       "AppScopeId":  null,
+                                                       "DirectoryScope":  {
+                                                                              "DeletedDateTime":  null,
+                                                                              "Id":  null
+                                                                          },
+                                                       "DirectoryScopeId":  null,
+                                                       "EndDateTime":  null,
+                                                       "Id":  null,
+                                                       "MemberType":  null,
+                                                       "Principal":  {
+                                                                         "DeletedDateTime":  null,
+                                                                         "Id":  null
+                                                                     },
+                                                       "PrincipalId":  null,
+                                                       "RoleDefinition":  {
+                                                                              "Description":  null,
+                                                                              "DisplayName":  null,
+                                                                              "Id":  null,
+                                                                              "InheritsPermissionsFrom":  null,
+                                                                              "IsBuiltIn":  null,
+                                                                              "IsEnabled":  null,
+                                                                              "ResourceScopes":  null,
+                                                                              "RolePermissions":  null,
+                                                                              "TemplateId":  null,
+                                                                              "Version":  null
+                                                                          },
+                                                       "RoleDefinitionId":  null,
+                                                       "RoleEligibilityScheduleId":  null,
+                                                       "StartDateTime":  null
+                                                   },
+                                "AppScope":  {
+                                                 "DisplayName":  null,
+                                                 "Id":  null,
+                                                 "Type":  null
+                                             },
+                                "AppScopeId":  null,
+                                "AssignmentType":  "Assigned",
+                                "DirectoryScope":  {
+                                                       "DeletedDateTime":  null,
+                                                       "Id":  null
+                                                   },
+                                "DirectoryScopeId":  "/",
+                                "EndDateTime":  null,
+                                "Id":  "lAPpYvVpN0KRkAEhdxReECeoxe3ZRItLrTz7hd6y6U8-1",
+                                "MemberType":  "Direct",
+                                "Principal":  {
+                                                  "DeletedDateTime":  null,
+                                                  "Id":  null
+                                              },
+                                "PrincipalId":  "edc5a827-44d9-4b8b-ad3c-fb85deb2e94f",
+                                "RoleAssignmentOriginId":  "lAPpYvVpN0KRkAEhdxReECeoxe3ZRItLrTz7hd6y6U8-1",
+                                "RoleAssignmentScheduleId":  "lAPpYvVpN0KRkAEhdxReECeoxe3ZRItLrTz7hd6y6U8-1",
+                                "RoleDefinition":  {
+                                                       "Description":  null,
+                                                       "DisplayName":  null,
+                                                       "Id":  null,
+                                                       "InheritsPermissionsFrom":  null,
+                                                       "IsBuiltIn":  null,
+                                                       "IsEnabled":  null,
+                                                       "ResourceScopes":  null,
+                                                       "RolePermissions":  null,
+                                                       "TemplateId":  null,
+                                                       "Version":  null
+                                                   },
+                                "RoleDefinitionId":  "62e90394-69f5-4237-9190-012177145e10",
+                                "StartDateTime":  null,
+                                "AdditionalProperties":  {
+
+                                                         }
+                            },
+                            {
+                                "ActivatedUsing":  {
+                                                       "AppScope":  {
+                                                                        "DisplayName":  null,
+                                                                        "Id":  null,
+                                                                        "Type":  null
+                                                                    },
+                                                       "AppScopeId":  null,
+                                                       "DirectoryScope":  {
+                                                                              "DeletedDateTime":  null,
+                                                                              "Id":  null
+                                                                          },
+                                                       "DirectoryScopeId":  null,
+                                                       "EndDateTime":  null,
+                                                       "Id":  null,
+                                                       "MemberType":  null,
+                                                       "Principal":  {
+                                                                         "DeletedDateTime":  null,
+                                                                         "Id":  null
+                                                                     },
+                                                       "PrincipalId":  null,
+                                                       "RoleDefinition":  {
+                                                                              "Description":  null,
+                                                                              "DisplayName":  null,
+                                                                              "Id":  null,
+                                                                              "InheritsPermissionsFrom":  null,
+                                                                              "IsBuiltIn":  null,
+                                                                              "IsEnabled":  null,
+                                                                              "ResourceScopes":  null,
+                                                                              "RolePermissions":  null,
+                                                                              "TemplateId":  null,
+                                                                              "Version":  null
+                                                                          },
+                                                       "RoleDefinitionId":  null,
+                                                       "RoleEligibilityScheduleId":  null,
+                                                       "StartDateTime":  null
+                                                   },
+                                "AppScope":  {
+                                                 "DisplayName":  null,
+                                                 "Id":  null,
+                                                 "Type":  null
+                                             },
+                                "AppScopeId":  null,
+                                "AssignmentType":  "Assigned",
+                                "DirectoryScope":  {
+                                                       "DeletedDateTime":  null,
+                                                       "Id":  null
+                                                   },
+                                "DirectoryScopeId":  "/",
+                                "EndDateTime":  null,
+                                "Id":  "4-PYiFWPHkqVOpuYmLiHa4sjvJ21N-xApdw6yqpoASs-1",
+                                "MemberType":  "Direct",
+                                "Principal":  {
+                                                  "DeletedDateTime":  null,
+                                                  "Id":  null
+                                              },
+                                "PrincipalId":  "9dbc238b-37b5-40ec-a5dc-3acaaa68012b",
+                                "RoleAssignmentOriginId":  "4-PYiFWPHkqVOpuYmLiHa4sjvJ21N-xApdw6yqpoASs-1",
+                                "RoleAssignmentScheduleId":  "4-PYiFWPHkqVOpuYmLiHa4sjvJ21N-xApdw6yqpoASs-1",
+                                "RoleDefinition":  {
+                                                       "Description":  null,
+                                                       "DisplayName":  null,
+                                                       "Id":  null,
+                                                       "InheritsPermissionsFrom":  null,
+                                                       "IsBuiltIn":  null,
+                                                       "IsEnabled":  null,
+                                                       "ResourceScopes":  null,
+                                                       "RolePermissions":  null,
+                                                       "TemplateId":  null,
+                                                       "Version":  null
+                                                   },
+                                "RoleDefinitionId":  "88d8e3e3-8f55-4a1e-953a-9b9898b8876b",
+                                "StartDateTime":  null,
+                                "AdditionalProperties":  {
+
+                                                         }
+                            }
+                        ]
+}

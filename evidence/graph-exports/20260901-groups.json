@@ -1,0 +1,63 @@
+﻿[
+    {
+        "Id":  "1a89b5d0-58f6-4a72-b8a4-41ae23e9c17c",
+        "DisplayName":  "GRP-Finance",
+        "SecurityEnabled":  true,
+        "IsAssignableToRole":  null,
+        "GroupTypes":  [
+
+                       ],
+        "Members":  [
+                        "63f0bd24-bb4b-4913-b2fd-254f718e27d3",
+                        "baeda930-63de-4945-8fec-94db37d9eb12"
+                    ]
+    },
+    {
+        "Id":  "2c1bc2a7-caa2-4c72-ae86-5b60db55fa1f",
+        "DisplayName":  "GRP-IT",
+        "SecurityEnabled":  true,
+        "IsAssignableToRole":  null,
+        "GroupTypes":  [
+
+                       ],
+        "Members":  [
+
+                    ]
+    },
+    {
+        "Id":  "5e1253db-d5ca-41a9-bfd6-78a55f01677e",
+        "DisplayName":  "GRP-RA-Helpdesk",
+        "SecurityEnabled":  true,
+        "IsAssignableToRole":  true,
+        "GroupTypes":  [
+
+                       ],
+        "Members":  [
+
+                    ]
+    },
+    {
+        "Id":  "7f93cb55-094b-411d-982e-c51ce41cc858",
+        "DisplayName":  "GRP-Ops",
+        "SecurityEnabled":  true,
+        "IsAssignableToRole":  null,
+        "GroupTypes":  [
+
+                       ],
+        "Members":  [
+                        "da05f0e8-53ba-44f9-ab94-692edd29d0c4"
+                    ]
+    },
+    {
+        "Id":  "b5c61eee-a17f-4279-9a86-957d20324834",
+        "DisplayName":  "GRP-SSPR-Enabled",
+        "SecurityEnabled":  true,
+        "IsAssignableToRole":  null,
+        "GroupTypes":  [
+
+                       ],
+        "Members":  [
+                        "89325943-c0cb-4df1-91c8-54c6a834d8ed"
+                    ]
+    }
+]

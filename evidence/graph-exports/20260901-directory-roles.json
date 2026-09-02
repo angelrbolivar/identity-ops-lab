@@ -1,0 +1,44 @@
+﻿[
+    {
+        "Id":  "9aac5261-ed55-4294-957b-7d3ccec37e36",
+        "DisplayName":  "Global Administrator",
+        "RoleTemplateId":  "62e90394-69f5-4237-9190-012177145e10",
+        "Members":  [
+                        {
+                            "Id":  "6f00518d-f328-48c6-aaa4-8d9167aa5b2b"
+                        },
+                        {
+                            "Id":  "6c275017-4ddc-4329-b876-b60abc2a1218"
+                        },
+                        {
+                            "Id":  "edc5a827-44d9-4b8b-ad3c-fb85deb2e94f"
+                        }
+                    ]
+    },
+    {
+        "Id":  "ae320a2f-e980-4094-a891-002069a82a70",
+        "DisplayName":  "Application Administrator",
+        "RoleTemplateId":  "9b895d92-2cd3-44c7-9d02-a6ac2d5ea5c3",
+        "Members":  [
+
+                    ]
+    },
+    {
+        "Id":  "d31eec19-8890-4a87-b386-c27ff5ca8ab4",
+        "DisplayName":  "Directory Readers",
+        "RoleTemplateId":  "88d8e3e3-8f55-4a1e-953a-9b9898b8876b",
+        "Members":  [
+
+                    ]
+    },
+    {
+        "Id":  "fcf10e31-932f-4c88-a045-0dc77602b6ce",
+        "DisplayName":  "Authentication Administrator",
+        "RoleTemplateId":  "c4e39bd9-1100-46d3-8c65-fb160da0071f",
+        "Members":  [
+                        {
+                            "Id":  "5e1253db-d5ca-41a9-bfd6-78a55f01677e"
+                        }
+                    ]
+    }
+]

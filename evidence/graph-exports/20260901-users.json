@@ -1,0 +1,98 @@
+﻿[
+    {
+        "Id":  "6c275017-4ddc-4329-b876-b60abc2a1218",
+        "DisplayName":  "Admin",
+        "UserPrincipalName":  "admin@destinofinalrusheroutlook.onmicrosoft.com",
+        "AccountEnabled":  true,
+        "UserType":  "Member",
+        "CreatedDateTime":  "\/Date(1787854280000)\/"
+    },
+    {
+        "Id":  "9d27c8c5-23d6-4a76-aa7c-d488a92de235",
+        "DisplayName":  "Vendor Guest",
+        "UserPrincipalName":  "bara082001_hotmail.com#EXT#@destinofinalrusheroutlook.onmicrosoft.com",
+        "AccountEnabled":  true,
+        "UserType":  "Guest",
+        "CreatedDateTime":  "\/Date(1788288945000)\/"
+    },
+    {
+        "Id":  "edc5a827-44d9-4b8b-ad3c-fb85deb2e94f",
+        "DisplayName":  "Break Glass",
+        "UserPrincipalName":  "breakglass@destinofinalrusheroutlook.onmicrosoft.com",
+        "AccountEnabled":  true,
+        "UserType":  "Member",
+        "CreatedDateTime":  "\/Date(1787856048000)\/"
+    },
+    {
+        "Id":  "6f00518d-f328-48c6-aaa4-8d9167aa5b2b",
+        "DisplayName":  "Rusher Ink",
+        "UserPrincipalName":  "destinofinalrusher_outlook.com#EXT#@destinofinalrusheroutlook.onmicrosoft.com",
+        "AccountEnabled":  true,
+        "UserType":  "Member",
+        "CreatedDateTime":  "\/Date(1787336675000)\/"
+    },
+    {
+        "Id":  "63f0bd24-bb4b-4913-b2fd-254f718e27d3",
+        "DisplayName":  "Ana Finance",
+        "UserPrincipalName":  "finance.ana@destinofinalrusheroutlook.onmicrosoft.com",
+        "AccountEnabled":  true,
+        "UserType":  "Member",
+        "CreatedDateTime":  "\/Date(1788282588000)\/"
+    },
+    {
+        "Id":  "26bf0e9f-ac5e-4600-9f26-bac0761a1a4a",
+        "DisplayName":  "HelpDesk Tier1",
+        "UserPrincipalName":  "helpdesk.t1@destinofinalrusheroutlook.onmicrosoft.com",
+        "AccountEnabled":  true,
+        "UserType":  "Member",
+        "CreatedDateTime":  "\/Date(1787856187000)\/"
+    },
+    {
+        "Id":  "1567dc40-875e-4f7b-9c11-740f230c8bd4",
+        "DisplayName":  "Joiner Sofia",
+        "UserPrincipalName":  "joiner.sofia@destinofinalrusheroutlook.onmicrosoft.com",
+        "AccountEnabled":  true,
+        "UserType":  "Member",
+        "CreatedDateTime":  "\/Date(1787957189000)\/"
+    },
+    {
+        "Id":  "0ed40152-4357-4315-ba19-0416443e6694",
+        "DisplayName":  "Marco Diaz",
+        "UserPrincipalName":  "leaver.marco@destinofinalrusheroutlook.onmicrosoft.com",
+        "AccountEnabled":  false,
+        "UserType":  "Member",
+        "CreatedDateTime":  "\/Date(1787856467000)\/"
+    },
+    {
+        "Id":  "baeda930-63de-4945-8fec-94db37d9eb12",
+        "DisplayName":  "Diego Mover",
+        "UserPrincipalName":  "mover.diego@destinofinalrusheroutlook.onmicrosoft.com",
+        "AccountEnabled":  true,
+        "UserType":  "Member",
+        "CreatedDateTime":  "\/Date(1788282620000)\/"
+    },
+    {
+        "Id":  "da05f0e8-53ba-44f9-ab94-692edd29d0c4",
+        "DisplayName":  "Luis Ops",
+        "UserPrincipalName":  "ops.luis@destinofinalrusheroutlook.onmicrosoft.com",
+        "AccountEnabled":  true,
+        "UserType":  "Member",
+        "CreatedDateTime":  "\/Date(1788282550000)\/"
+    },
+    {
+        "Id":  "d6c34b41-cf3b-4103-880f-db78e36e8c35",
+        "DisplayName":  "PIM Operator",
+        "UserPrincipalName":  "pim.admin@destinofinalrusheroutlook.onmicrosoft.com",
+        "AccountEnabled":  true,
+        "UserType":  "Member",
+        "CreatedDateTime":  "\/Date(1787856249000)\/"
+    },
+    {
+        "Id":  "89325943-c0cb-4df1-91c8-54c6a834d8ed",
+        "DisplayName":  "Standard User",
+        "UserPrincipalName":  "user.standard@destinofinalrusheroutlook.onmicrosoft.com",
+        "AccountEnabled":  true,
+        "UserType":  "Member",
+        "CreatedDateTime":  "\/Date(1787856403000)\/"
+    }
+]

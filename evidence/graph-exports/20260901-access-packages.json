@@ -1,0 +1,76 @@
+﻿{
+    "Catalogs":  [
+                     {
+                         "AccessPackages":  null,
+                         "CatalogType":  "userManaged",
+                         "CreatedDateTime":  "\/Date(1788239124983)\/",
+                         "CustomWorkflowExtensions":  null,
+                         "Description":  "Norte Club access packages",
+                         "DisplayName":  "Norte Club",
+                         "Id":  "0a45130a-0bb4-4cb5-9474-80203ee3ce2c",
+                         "IsExternallyVisible":  false,
+                         "ModifiedDateTime":  "\/Date(1788239124983)\/",
+                         "ResourceRoles":  null,
+                         "ResourceScopes":  null,
+                         "Resources":  null,
+                         "State":  "published",
+                         "AdditionalProperties":  {
+
+                                                  }
+                     },
+                     {
+                         "AccessPackages":  null,
+                         "CatalogType":  "serviceDefault",
+                         "CreatedDateTime":  "\/Date(1787954298923)\/",
+                         "CustomWorkflowExtensions":  null,
+                         "Description":  "Built-in catalog.",
+                         "DisplayName":  "General",
+                         "Id":  "61a60e8f-676a-4d41-aa22-d61cc17a8ef9",
+                         "IsExternallyVisible":  true,
+                         "ModifiedDateTime":  "\/Date(1787954298923)\/",
+                         "ResourceRoles":  null,
+                         "ResourceScopes":  null,
+                         "Resources":  null,
+                         "State":  "published",
+                         "AdditionalProperties":  {
+
+                                                  }
+                     }
+                 ],
+    "AccessPackages":  [
+                           {
+                               "AccessPackagesIncompatibleWith":  null,
+                               "AssignmentPolicies":  null,
+                               "Catalog":  {
+                                               "AccessPackages":  null,
+                                               "CatalogType":  null,
+                                               "CreatedDateTime":  null,
+                                               "CustomWorkflowExtensions":  null,
+                                               "Description":  null,
+                                               "DisplayName":  null,
+                                               "Id":  null,
+                                               "IsExternallyVisible":  null,
+                                               "ModifiedDateTime":  null,
+                                               "ResourceRoles":  null,
+                                               "ResourceScopes":  null,
+                                               "Resources":  null,
+                                               "State":  null
+                                           },
+                               "CreatedDateTime":  "\/Date(1788278384173)\/",
+                               "Description":  "Request GRP-Ops",
+                               "DisplayName":  "AP-Ops-Access",
+                               "Id":  "67837b85-eb2b-4da1-88e1-c5cd1dd16d1a",
+                               "IncompatibleAccessPackages":  null,
+                               "IncompatibleGroups":  null,
+                               "IsHidden":  false,
+                               "ModifiedDateTime":  "\/Date(1788278384173)\/",
+                               "ResourceRoleScopes":  null,
+                               "AdditionalProperties":  {
+
+                                                        }
+                           }
+                       ],
+    "Assignments":  [
+
+                    ]
+}
