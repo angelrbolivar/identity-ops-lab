@@ -54,7 +54,7 @@ breakglass + High sign-in risk: 0 policies apply. CA-04 excluded.
 
 ## Risk detections
 
-No risk events found. Last month. High + Medium filter. I did not fake a risky sign-in.
+No risk events in the last month. Filter High + Medium.
 
 ![Detections](../screenshots/97-risk-detections.png)
 

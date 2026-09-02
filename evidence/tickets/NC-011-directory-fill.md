@@ -15,7 +15,7 @@ Three identities in the portal. No bulk create. No Graph. mover.diego starts in 
 - Ana Finance / finance.ana — Member. GRP-Finance.
 - Diego Mover / mover.diego — Member. GRP-Ops.
 - GRP-RA-Helpdesk still zero standing members.
-- Rusher Ink unused. Cropped from hire-bar shots.
+- Personal account Rusher Ink left unused.
 
 ![Users](../screenshots/23-users-full.png)
 

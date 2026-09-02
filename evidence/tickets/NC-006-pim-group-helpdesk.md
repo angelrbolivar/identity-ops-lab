@@ -72,13 +72,9 @@ helpdesk.t1 Deactivate. Active assignments: empty. Group Members: 0. Eligible as
 
 ![Members after](../screenshots/38b-grp-ra-members-after-deactivate.png)
 
-## Not done this ticket
-
-Did not open Authentication methods on a test account while membership was live. Optional rerun later. Not required for the hire-bar walk.
-
 ## Rollback
 
-Deactivate ends the clock. Remove Eligible assignment on GRP-RA-Helpdesk if the grant must die. Do not delete the group until the P2 Graph dump exists. Do not assign Authentication Administrator to helpdesk.t1 as a user.
+Deactivate ends the clock. Remove the Eligible member assignment on GRP-RA-Helpdesk if the grant must die. Do not delete the group. Do not assign Authentication Administrator to helpdesk.t1 as a user.
 
 Blades: Groups > GRP-RA-Helpdesk > Members, Assigned roles, Privileged Identity Management. PIM > Groups > Settings / Assignments / Approve requests. My roles > Groups.
 

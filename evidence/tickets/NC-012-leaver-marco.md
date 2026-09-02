@@ -11,7 +11,7 @@ Verification: I control leaver.marco@destinofinalrusheroutlook.onmicrosoft.com i
 - UPN: leaver.marco@destinofinalrusheroutlook.onmicrosoft.com
 - Account enabled: Yes
 - Group memberships: none
-- Sign-ins: none. Account never used. I did not register MFA just to make revoke look busier.
+- Sign-ins: none. Account never used.
 
 ![Before](../screenshots/70-leaver-before.png)
 

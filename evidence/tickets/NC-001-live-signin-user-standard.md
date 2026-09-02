@@ -8,7 +8,7 @@ Password reset this block: yes
 
 ## Before
 
-Proof for CA-01 was What If only. No live Success row used as hire-bar evidence. Methods at the start of the block were not captured empty. First live sign-in had already completed before shot 10.
+Authenticator already registered. First live sign-in completed before shot 10.
 
 ## After
 
@@ -26,7 +26,7 @@ Proof for CA-01 was What If only. No live Success row used as hire-bar evidence.
 - CA-03-MFA-Admins: Not Applied
 - Identity Secure Score baseline: 53.33% on 28 Aug 2026
 
-Same-day rows left in shot 12 on purpose:
+Other rows the same day:
 
 - 1:39:03 PM Failure 50089 CA Not Applied
 - 12:58:47 Interrupted 50140 CA Success
@@ -46,7 +46,7 @@ Conditional Access tab on that row:
 
 ![CA-01 Success](../screenshots/13-user-standard-signin-ca01.png)
 
-Score baseline. Not chased:
+Identity Secure Score the same day:
 
 ![Identity Secure Score 53.33 percent](../screenshots/15-secure-score-baseline.png)
 

@@ -18,7 +18,7 @@ Password reset > Properties: Self service password reset enabled = None.
 - Registration: Require users to register when signing in = Yes. Re-confirm = 180 days.
 - On-premises integration: not enabled.
 
-Admin SSPR is Microsoft-default (admins always enabled, two methods). I did not set Properties to All to get that.
+Admin SSPR stays on Microsoft default (admins enabled, two methods). Properties stays Selected, not All.
 
 ## Shots
 
@@ -36,4 +36,4 @@ Properties → None, or remove user.standard from GRP-SSPR-Enabled.
 
 Blades: Groups > GRP-SSPR-Enabled. Protection > Password reset > Properties, Authentication methods, Registration.
 
-No live password reset in this ticket. Wipe is NC-003.
+Password reset walk is NC-003.

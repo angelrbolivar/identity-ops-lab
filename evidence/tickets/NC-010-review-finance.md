@@ -7,7 +7,7 @@ Verification: I own the tenant. Reviewer is admin only.
 
 ## Decision
 
-Resource review on GRP-Finance. Scope All users, not guests. Reviewer selected user admin. One time. 3 days. Auto apply off. If no response: No change. Empty membership is allowed. Do not invent finance users to make the donut move.
+Resource review on GRP-Finance. Scope All users, not guests. Reviewer selected user admin. One time. 3 days. Auto apply off. If no response: No change. Empty membership is allowed.
 
 Review lives on the Access reviews blade, not the Access reviews tab inside AP-Ops-Access.
 
