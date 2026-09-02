@@ -3,7 +3,7 @@
 Date: 28 Aug 2026
 Requester: Angel
 Requested action: enable self-service password reset for GRP-SSPR-Enabled only
-Verification: I own the lab directory
+Verification: Verification: I control user.standard and GRP-SSPR-Enabled
 
 ## Before
 
