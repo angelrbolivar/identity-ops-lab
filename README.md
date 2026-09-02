@@ -2,17 +2,13 @@
 
 Norte Club is a fictional gym and payments company. I built its Entra tenant from scratch so I could do identity work end to end instead of reading about it. Angel Rodriguez Bolivar.
 
-Microsoft Entra ID P2 trial. Started 27 Aug 2026. The trial ends around 23 Sep 2026 and the tenant goes with it. Screenshots and tickets are the evidence.
-
 ## What I do in production
 
-At ABC Fitness I verify the requester's identity first, then change their access in Ignite. Password resets are gated to L3, so I route those instead of doing them.
+At ABC Fitness I verify the requester's identity first along with their club unique ID#, I ask for pin secret as a 2FA method to authenticate client. then I check the level of authorization 1-low, 2-medium, 3-high, . Password resets for example... can only be authorized by a level 3 client, so only If I authenticate won't be enough if the authorization level thresshold is not met.
 
-At Remitly I triaged ATO and fraud alerts in a live queue under SLA: release, hold, or block, on incomplete information.
+At Remitly I triaged ATO and fraud alerts in a live queue under SLA: release, hold, or block (suspend), on incomplete information.
 
 CompTIA Security+. Detection work lives in [angelrbolivar-soc-portfolio](https://github.com/angelrbolivar/angelrbolivar-soc-portfolio).
-
-I do not administer Entra, Okta, AD, or M365 at work. That is the gap this lab is closing.
 
 ## Rules
 
@@ -118,13 +114,9 @@ Tickets use `../screenshots/file.png` because they sit in `evidence/tickets/`. R
 Graph is HOME only. Scripts in `scripts/graph/`. Dump night 1 Sep 2026, files in [evidence/graph-exports/](evidence/graph-exports/):
 
 - `20260901-users.json` `20260901-groups.json` `20260901-directory-roles.json` `20260901-ca-policies.json`
-- `20260901-pim-entra.json` `20260901-pim-groups.json` (thin)
+- `20260901-pim-entra.json` `20260901-pim-groups.json` 
 - `20260901-access-packages.json` `20260901-access-reviews.json`
 - `20260901-leaver-marco-before.json` `20260901-leaver-marco-after.json`
 - `20260901-signins.json` `20260901-audit.json`
 
 Leaver revoke used `POST .../revokeSignInSessions`. `Revoke-MgUserSignInSession` was not on the machine. Sign-in/audit used Graph REST, not `Microsoft.Graph.Reports`.
-
-## Out of scope
-
-No Intune, no Entra Connect, no Lifecycle Workflows, no Sentinel on this tenant, no Okta.
