@@ -4,7 +4,7 @@ Norte Club is a fictional gym and payments company. I built its Entra tenant fro
 
 ## What I do in production
 
-At ABC Fitness I verify the requester's identity first along with their club unique ID#, I ask for pin secret as a 2FA method to authenticate client. then I check the level of authorization 1-low, 2-medium, 3-high, . Password resets for example... can only be authorized by a level 3 client, so only If I authenticate won't be enough if the authorization level thresshold is not met. Also in Security Roles configurations we authenticate + check authorization level, if less than 2 = do not permit, if is lvl 3 we can help configure the employees, trainers, sellers, admins roles + permissions and allowlists.
+At ABC Fitness I verify the requester first: club unique ID, then a PIN as a second factor. Then I check authorization level (1 low, 2 medium, 3 high). Authentication is not enough if the level is too low. Password reset is level 3 only. Security-role changes need level 3. Below 2 I do not change employee, trainer, seller, or admin roles.
 
 At Remitly I triaged ATO and fraud alerts in a live queue under SLA: release, hold, or block (suspend), on incomplete information.
 
@@ -107,6 +107,8 @@ Same-day Interrupted and Failure rows stay in the list shot. I did not crop them
 
 ## Evidence
 
+P2 trial on this tenant ends around 23 Sep 2026. PIM, Identity Protection, access packages, and reviews die with it. Screenshots and the 1 Sep 2026 Graph dump are the copy that stays.
+
 All portal shots live in `evidence/tickets/` markdown and `evidence/screenshots/`. There is no second `screenshots/` folder at repo root.
 
 Tickets use `../screenshots/file.png` because they sit in `evidence/tickets/`. README and modules use `evidence/screenshots/file.png`.
@@ -114,9 +116,13 @@ Tickets use `../screenshots/file.png` because they sit in `evidence/tickets/`. R
 Graph is HOME only. Scripts in `scripts/graph/`. Dump night 1 Sep 2026, files in [evidence/graph-exports/](evidence/graph-exports/):
 
 - `20260901-users.json` `20260901-groups.json` `20260901-directory-roles.json` `20260901-ca-policies.json`
-- `20260901-pim-entra.json` `20260901-pim-groups.json` 
+- `20260901-pim-entra.json` `20260901-pim-groups.json` (thin)
 - `20260901-access-packages.json` `20260901-access-reviews.json`
 - `20260901-leaver-marco-before.json` `20260901-leaver-marco-after.json`
 - `20260901-signins.json` `20260901-audit.json`
 
 Leaver revoke used `POST .../revokeSignInSessions`. `Revoke-MgUserSignInSession` was not on the machine. Sign-in/audit used Graph REST, not `Microsoft.Graph.Reports`.
+
+## Out of scope
+
+No Intune, no Entra Connect, no Lifecycle Workflows, no Sentinel on this tenant, no Okta.
