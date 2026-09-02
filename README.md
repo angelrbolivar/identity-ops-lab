@@ -54,7 +54,7 @@ Groups: `GRP-Ops` member `Luis Ops`. `GRP-Finance` members `Ana Finance`, `Diego
 `GRP-SSPR-Enabled` — security, assigned, not role-assignable. Member: `user.standard` only.
 `GRP-RA-Helpdesk` — role-assignable. Auth Admin Active on the group. Zero standing members. `helpdesk.t1` Eligible Member.
 
-Leftover personal account from trial signup is cropped and unused.
+Leftover personal account from trial signup is unused.
 
 ## Conditional Access
 
